@@ -1,0 +1,198 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/03-projet-metriques
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/Spring-Boot-Hello-World-Example # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8b83aa9ebaa61f4d68604ef30534615c0acec1c9 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 8b83aa9ebaa61f4d68604ef30534615c0acec1c9 # timeout=10
+Commit message: "Update DemoApplication.java"
+ > /usr/bin/git rev-list --no-walk 8b83aa9ebaa61f4d68604ef30534615c0acec1c9 # timeout=10
+[Checks API] No suitable checks publisher found.
+[03-projet-metriques] $ /usr/share/maven/bin/mvn clean test findbugs:findbugs pmd:pmd checkstyle:checkstyle
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/03-projet-metriques/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:prepare-agent[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/var/lib/jenkins/workspace/03-projet-metriques/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/03-projet-metriques/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/03-projet-metriques/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/03-projet-metriques/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.reytech.demo.[1mDemoApplicationTests[m
+08:44:34.003 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:44:34.031 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:44:34.119 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reytech.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+08:44:34.159 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.DemoApplicationTests], using SpringBootContextLoader
+08:44:34.173 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTests-context.xml] does not exist
+08:44:34.175 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTestsContext.groovy] does not exist
+08:44:34.177 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reytech.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:44:34.179 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reytech.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:44:34.246 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.reytech.demo.DemoApplicationTests]
+08:44:34.378 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/03-projet-metriques/target/classes/com/reytech/demo/DemoApplication.class]
+08:44:34.380 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.DemoApplicationTests
+08:44:34.762 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reytech.demo.DemoApplicationTests]: using defaults.
+08:44:34.763 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+08:44:34.787 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+08:44:34.789 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+08:44:34.793 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a536164, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1657b017, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@368424db, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@44864536, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455f4483, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e239337, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7996d0d4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@fcf9525, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@300bb303, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4243341e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d1c5cf2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7e0986c9]
+08:44:34.813 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@619c3546 testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29090809 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.reytech.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67e13bd0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@618ff5c2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@648d0e6d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3722c145, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+BeforeAll
+08:44:34.976 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-09-23 08:44:35.887  INFO 7151 --- [           main] com.reytech.demo.DemoApplicationTests    : Starting DemoApplicationTests on jenkinsafcepf with PID 7151 (started by jenkins in /var/lib/jenkins/workspace/03-projet-metriques)
+2020-09-23 08:44:35.894  INFO 7151 --- [           main] com.reytech.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-23 08:44:38.156  INFO 7151 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-23 08:44:38.823  INFO 7151 --- [           main] com.reytech.demo.DemoApplicationTests    : Started DemoApplicationTests in 3.822 seconds (JVM running for 6.651)
+BeforeEach
+TEST 2
+AfterEach
+BeforeEach
+TEST 1
+AfterEach
+AfterAll
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.24 s - in com.reytech.demo.[1mDemoApplicationTests[m
+[[1;34mINFO[m] Running com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-23 08:44:39.113  INFO 7151 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.StandardAssertionsTest], using SpringBootContextLoader
+2020-09-23 08:44:39.114  INFO 7151 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.reytech.demo.StandardAssertionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-23 08:44:39.114  INFO 7151 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reytech.demo.StandardAssertionsTest]: StandardAssertionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-23 08:44:39.116  INFO 7151 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.StandardAssertionsTest
+2020-09-23 08:44:39.118  INFO 7151 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-23 08:44:39.119  INFO 7151 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35b2a73e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@885ac1a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65dfb9ed, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7550b03f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@557b62fc, org.springframework.test.context.event.EventPublishingTestExecutionListener@703be135, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68332e0e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1812ba7f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16704703, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39ed2eb1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@485f34dc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4593aeea]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-23 08:44:39.230  INFO 7151 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfindbugs-maven-plugin:3.0.5:findbugs[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+[[1;34mINFO[m] Done FindBugs Analysis....
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.13.0:pmd[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:checkstyle[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] There are 14 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  23.017 s
+[[1;34mINFO[m] Finished at: 2020-09-23T08:44:50Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[03-projet-metriques] $ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarqube/bin/sonar-scanner -Dsonar.host.url=http://192.168.4.11 -Dsonar.language=java -Dsonar.projectName=SpringBootProject -Dsonar.projectVersion=1.0 -Dsonar.sourceEncoding=UTF-8 -Dsonar.projectKey=java-sonar-runner-simple -Dsonar.java.binaries=target -Dsonar.sources=src -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/03-projet-metriques
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarqube/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.4.0.2170
+INFO: Java 1.8.0_242 Private Build (64-bit)
+INFO: Linux 4.15.0-91-generic amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+ERROR: SonarQube server [http://192.168.4.11] can not be reached
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 0.474s
+INFO: Final Memory: 4M/39M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarScanner execution
+org.sonarsource.scanner.api.internal.ScannerException: Unable to execute SonarScanner analysis
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:85)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:74)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:70)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:185)
+	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:123)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:73)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:61)
+Caused by: java.lang.IllegalStateException: Fail to get bootstrap index from server
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:42)
+	at org.sonarsource.scanner.api.internal.JarDownloader.getScannerEngineFiles(JarDownloader.java:58)
+	at org.sonarsource.scanner.api.internal.JarDownloader.download(JarDownloader.java:53)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:76)
+	... 7 more
+Caused by: java.net.ConnectException: Failed to connect to /192.168.4.11:80
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:265)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connect(RealConnection.java:183)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.Transmitter.newExchange(Transmitter.java:169)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.getResponseWithInterceptorChain(RealCall.java:221)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.execute(RealCall.java:81)
+	at org.sonarsource.scanner.api.internal.ServerConnection.callUrl(ServerConnection.java:114)
+	at org.sonarsource.scanner.api.internal.ServerConnection.downloadString(ServerConnection.java:99)
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:39)
+	... 10 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.platform.Platform.connectSocket(Platform.java:130)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:263)
+	... 31 more
+ERROR: 
+ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeed?
+ERROR: SonarQube scanner exited with non-zero code: 1
+[PMDCheckStyleFindBugs] Skipping execution of recorder since overall result is 'FAILURE'
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

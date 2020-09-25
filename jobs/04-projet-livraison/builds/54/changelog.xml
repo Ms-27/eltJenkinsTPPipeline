@@ -1,0 +1,9 @@
+commit 96f4fa0df3e0632bed411267d5f9bd9512fef582
+tree 0073770166388da4833219ec28d9c024d6257ce4
+parent b6fb2f69ddbf0036637b91ea5f1e3ee44d5f91bc
+author Ms-27 <ms@juliver.com> 2020-09-25 15:39:36 +0200
+committer GitHub <noreply@github.com> 2020-09-25 15:39:36 +0200
+
+    Create sonar-project.properties
+
+:000000 100644 0000000000000000000000000000000000000000 a595855d779249b5b0ff17a568511be81981b01a A	sonar-project.properties

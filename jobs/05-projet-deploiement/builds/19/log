@@ -1,0 +1,67 @@
+Started by upstream project "[8mha:////4Jo+j/ANswUxz3ferq98yg0xc9Vzp7qLCnmL2TLKHaDfAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DE92Covys1BLdnMyyosRMoH59AKjILCfOAAAA[0m04-projet-livraison" build number [8mha:////4Pq/bXTCcKga33NA5DEijImtzHXNL35cfWMMvi5jEgaxAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DE92Covys1BLdnMyyosRMoH59UwsAY6x529AAAAA=[0m58
+originally caused by:
+ Started by upstream project "[8mha:////4Llc/pE6uDoN/rRi8x7JCKw/ud51k0grMkbezXR6X9ThAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH0DI92Covys1BLdktTiEn0Aq/xKYckAAAA=[0m02-projet-test" build number [8mha:////4DPj0ffznXsLfsTGhZuukraKvUIit6Hn6kxitmPFjDwKAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH0DI92Covys1BLdktTiEn1jYwANxLFhywAAAA==[0m33
+ originally caused by:
+  Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4Luy8nmHSsd1VMrWaNiOsmULxlV+WV1jZ2Ih5oonnXKCAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH1jSwC1mSf9zgAAAA==[0m39
+  originally caused by:
+   Started by an SCM change
+   Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+75e8a219ecb0
+75e8a219ecb0
+Untagged: springbootapp:latest
+Untagged: ms27ms27/springbootapp:1.0
+Untagged: ms27ms27/springbootapp@sha256:4dde7edc834e61e60eda12136fa6d4a4aae8989329427ca07cbe635ddad59a19
+Deleted: sha256:03a1976e692589a0c6fc0c460e0f9069ee6d24e108a8f6645f5375cbbc7dc023
+Deleted: sha256:6c6694408b0a2999786c0ee4adf4b9abb6aaaf8bed927a6584e613211773097b
+Deleted: sha256:c6e0234b55093f90701abc859d10d0c232aa71ef65f1044e7dde28edd62d6e56
+Deleted: sha256:f85ddd0f29bf468b4c5723efb54c6a51885a92286707c16dfac7dc1d41c6adf2
+Untagged: ms27ms27/springbootapp@sha256:ceecb260e1d0d936dcbc1025c17a213c4c527c21a0c06340fa82380f5cc12982
+Deleted: sha256:ad1573cbe5d914c0af0ecf14d8fc162729eeead4c3bc905e8f786c61b3eec35d
+Deleted: sha256:cb4e037ce12cdfbd4825ec175c5715a1c2625dd30988bb3a0d68fb4bc571eb5e
+Untagged: openjdk:8-jre-alpine
+Untagged: openjdk@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Deleted: sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4
+Deleted: sha256:aba8cd4318a8a15f59f305368e49cc3bbd0d6d72171a0b24d08cc00513b14ef4
+Deleted: sha256:c318fbba92645a83843c387bd78497e7b143ecc7f5ed99dcb7d38fc62442c02a
+Deleted: sha256:f1b5933fe4b5f49bbe8258745cf396afe07e625bdab3168e364daf7c956b6b81
+Error response from daemon: conflict: unable to delete 6c6694408b0a (cannot be forced) - image has dependent child images
+Error: No such image: 03a1976e6925
+Error: No such image: c6e0234b5509
+Unable to find image 'ms27ms27/springbootapp:1.0' locally
+1.0: Pulling from ms27ms27/springbootapp
+e7c96db7181b: Pulling fs layer
+f910a506b6cb: Pulling fs layer
+b6abafe80f63: Pulling fs layer
+49454e4ebf5d: Pulling fs layer
+49454e4ebf5d: Waiting
+f910a506b6cb: Verifying Checksum
+f910a506b6cb: Download complete
+e7c96db7181b: Verifying Checksum
+e7c96db7181b: Download complete
+e7c96db7181b: Pull complete
+f910a506b6cb: Pull complete
+49454e4ebf5d: Verifying Checksum
+49454e4ebf5d: Download complete
+b6abafe80f63: Verifying Checksum
+b6abafe80f63: Download complete
+b6abafe80f63: Pull complete
+49454e4ebf5d: Pull complete
+Digest: sha256:4dde7edc834e61e60eda12136fa6d4a4aae8989329427ca07cbe635ddad59a19
+Status: Downloaded newer image for ms27ms27/springbootapp:1.0
+901768ef1447cde815dd0472c040d8a332a62b3c3e8492876af54567cb4df249
+SSH: EXEC: completed after 8,621 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4JLNbnFB+5BMxRVnfPHmRCo9lAYA8sIY4gCgX+ZdFktQAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH0DM92Covys1BLdstSizLRKfQDJYshjywAAAA==[0m06-projet-verify
+Finished: SUCCESS

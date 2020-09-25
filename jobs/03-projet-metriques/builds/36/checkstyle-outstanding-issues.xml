@@ -1,0 +1,291 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@9.0.1">
+  <elements class="linked-hash-set">
+    <issue>
+      <category>Checks</category>
+      <type>NewlineAtEndOfFileCheck</type>
+      <severity>ERROR</severity>
+      <lineStart>1</lineStart>
+      <lineEnd>1</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>5c8298cf-49fa-4f7d-ab1f-863e24f63c12</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName>com.reytech.demo.controller</packageName>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName>src/main/java/com/reytech/demo/controller/HomeController.java</fileName>
+      <message>File does not end with a newline.</message>
+      <description></description>
+      <fingerprint>039204B5AE122332EDC75A7751C5AEC5</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>JavadocPackageCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>1</lineStart>
+      <lineEnd>1</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>21359aa6-2b3f-45c5-92a6-0535e5462394</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Missing package-info.java file.</message>
+      <description></description>
+      <fingerprint>039204B5AE122332EDC75A7751C5AEC5</fingerprint>
+    </issue>
+    <issue>
+      <category>Design</category>
+      <type>DesignForExtensionCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>10</lineStart>
+      <lineEnd>10</lineEnd>
+      <columnStart>5</columnStart>
+      <columnEnd>5</columnEnd>
+      <lineRanges/>
+      <id>d13e2a09-ad6e-4552-b6d9-b5ff49ced585</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;hello&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;hello&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+      <description></description>
+      <fingerprint>B80F95B3D3444E4D35F4122B5647E906</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>MissingJavadocMethodCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>10</lineStart>
+      <lineEnd>10</lineEnd>
+      <columnStart>5</columnStart>
+      <columnEnd>5</columnEnd>
+      <lineRanges/>
+      <id>06365cbc-db53-4fd0-9057-b6f09c4b6ec9</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Missing a Javadoc comment.</message>
+      <description></description>
+      <fingerprint>B80F95B3D3444E4D35F4122B5647E906</fingerprint>
+    </issue>
+    <issue>
+      <category>Whitespace</category>
+      <type>WhitespaceAroundCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>11</lineStart>
+      <lineEnd>11</lineEnd>
+      <columnStart>26</columnStart>
+      <columnEnd>26</columnEnd>
+      <lineRanges/>
+      <id>227ce5d1-6b2e-4c6c-875d-a0d90c051858</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>&apos;{&apos; is not preceded with whitespace.</message>
+      <description></description>
+      <fingerprint>2ACAB6D0D8377639A1F570D4193EC57D</fingerprint>
+    </issue>
+    <issue>
+      <category>Design</category>
+      <type>DesignForExtensionCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>15</lineStart>
+      <lineEnd>15</lineEnd>
+      <columnStart>5</columnStart>
+      <columnEnd>5</columnEnd>
+      <lineRanges/>
+      <id>0f79a6bc-bebf-4aa8-94c9-2987d90e1dc1</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;message&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;message&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+      <description></description>
+      <fingerprint>4271172EB115EE4609F6E50864B70182</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>MissingJavadocMethodCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>15</lineStart>
+      <lineEnd>15</lineEnd>
+      <columnStart>5</columnStart>
+      <columnEnd>5</columnEnd>
+      <lineRanges/>
+      <id>68f2c441-3e1f-4947-b214-5fdc03484137</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Missing a Javadoc comment.</message>
+      <description></description>
+      <fingerprint>4271172EB115EE4609F6E50864B70182</fingerprint>
+    </issue>
+    <issue>
+      <category>Checks</category>
+      <type>FinalParametersCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>16</lineStart>
+      <lineEnd>16</lineEnd>
+      <columnStart>27</columnStart>
+      <columnEnd>27</columnEnd>
+      <lineRanges/>
+      <id>470b7b06-5e0f-4630-8b32-752e6d2157f1</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Parameter model should be final.</message>
+      <description></description>
+      <fingerprint>8560ABD5660928BA29CB0FEE9B656551</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>JavadocPackageCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>1</lineStart>
+      <lineEnd>1</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>915954d7-c973-47d3-8159-917eab1087bb</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName>com.reytech.demo</packageName>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName>src/main/java/com/reytech/demo/DemoApplication.java</fileName>
+      <message>Missing package-info.java file.</message>
+      <description></description>
+      <fingerprint>41F21DBDE6A2AC7F4B7787CE8F71C0F7</fingerprint>
+    </issue>
+    <issue>
+      <category>Design</category>
+      <type>HideUtilityClassConstructorCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>6</lineStart>
+      <lineEnd>6</lineEnd>
+      <columnStart>1</columnStart>
+      <columnEnd>1</columnEnd>
+      <lineRanges/>
+      <id>7ce81453-ef74-4dc2-ae1c-3aa361be3f87</id>
+      <reference>31</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue[9]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue[9]/fileName"/>
+      <message>Utility classes should not have a public or default constructor.</message>
+      <description></description>
+      <fingerprint>70800F7A0A6045BFC8D5C31C0E91C92E</fingerprint>
+    </issue>
+    <issue>
+      <category>Regexp</category>
+      <type>RegexpSinglelineCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>8</lineStart>
+      <lineEnd>8</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>670ae494-8853-40fd-b7eb-ebf49042cfc6</id>
+      <reference>31</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue[9]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue[9]/fileName"/>
+      <message>Line has trailing spaces.</message>
+      <description></description>
+      <fingerprint>268D1E067B3A91C5A6EA1806ACCB4EE2</fingerprint>
+    </issue>
+    <issue>
+      <category>Whitespace</category>
+      <type>FileTabCharacterCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>8</lineStart>
+      <lineEnd>8</lineEnd>
+      <columnStart>1</columnStart>
+      <columnEnd>1</columnEnd>
+      <lineRanges/>
+      <id>1bff4c25-c591-456b-ab47-4fbf12827bd4</id>
+      <reference>13</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue[9]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue[9]/fileName"/>
+      <message>File contains tab characters (this is the first instance).</message>
+      <description></description>
+      <fingerprint>268D1E067B3A91C5A6EA1806ACCB4EE2</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>MissingJavadocMethodCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>9</lineStart>
+      <lineEnd>9</lineEnd>
+      <columnStart>9</columnStart>
+      <columnEnd>9</columnEnd>
+      <lineRanges/>
+      <id>f761964b-b6dc-43b5-a26c-ff1419c8f3da</id>
+      <reference>31</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue[9]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue[9]/fileName"/>
+      <message>Missing a Javadoc comment.</message>
+      <description></description>
+      <fingerprint>268D1E067B3A91C5A6EA1806ACCB4EE2</fingerprint>
+    </issue>
+    <issue>
+      <category>Checks</category>
+      <type>FinalParametersCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>9</lineStart>
+      <lineEnd>9</lineEnd>
+      <columnStart>33</columnStart>
+      <columnEnd>33</columnEnd>
+      <lineRanges/>
+      <id>939dd48d-2ebb-4ed8-8fe0-d1a8bd295abb</id>
+      <reference>31</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue[9]/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metriques</pathName>
+      <fileName reference="../../issue[9]/fileName"/>
+      <message>Parameter args should be final.</message>
+      <description></description>
+      <fingerprint>268D1E067B3A91C5A6EA1806ACCB4EE2</fingerprint>
+    </issue>
+  </elements>
+  <infoMessages/>
+  <errorMessages/>
+  <countersByKey/>
+  <fileNames/>
+  <namesByOrigin/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

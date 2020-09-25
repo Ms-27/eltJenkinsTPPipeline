@@ -1,0 +1,13 @@
+Started by upstream project "[8mha:////4KIaB5QHxWf+8QgUGfBtnkVgmnhML/NnloYnpx2JLqFCAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DY92Covys1BLd3FSgQYWlqcX6AIw0kk3OAAAA[0m03-projet-metriques" build number [8mha:////4Kni15wzltewnC9O3YFCiIyOk+YfqiAHicvlnuJ96EFcAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DY92Covys1BLd3FSgQYWlqcX6xkYA1NcVKNAAAAA=[0m32
+originally caused by:
+ Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4HVIyTGvDHJknGbGhFcHQ+OKv5Eb6hG/s+yocBn6mtKJAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH0jcwDzhYQDzgAAAA==[0m27
+ originally caused by:
+  Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/04-projet-fin
+[Checks API] No suitable checks publisher found.
+[04-projet-fin] $ /bin/sh -xe /tmp/jenkins1742440915986312523.sh
++ echo Je déploie!
+Je déploie!
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

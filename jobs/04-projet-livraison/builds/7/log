@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4Llc/pE6uDoN/rRi8x7JCKw/ud51k0grMkbezXR6X9ThAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH0DI92Covys1BLdktTiEn0Aq/xKYckAAAA=[0m02-projet-test" build number [8mha:////4G7LSf7yxk2wJxhmcV0CuO9L+9G9hjP5DwNkCEI7I7U5AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH0DI92Covys1BLdktTiEn1DMwAAUu0jywAAAA==[0m16
+originally caused by:
+ Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4AjC+FHO/zMF86IYHb3yAE9EAyXhyrYk19y6Tkl11cSXAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH1DCwChyxa4zgAAAA==[0m18
+ originally caused by:
+  Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/03-projet-fin
+[03-projet-fin] $ /bin/sh -xe /tmp/jenkins4863597027118430792.sh
++ echo Je déploie!
+Je déploie!
+Finished: SUCCESS

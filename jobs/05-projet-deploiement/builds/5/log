@@ -1,0 +1,21 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps);
+docker rm $(docker ps -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+unknown shorthand flag: 'c' in -c
+See 'docker stop --help'.
+67aada6830af
+Error response from daemon: You cannot remove a running container 89050cde8e85dbc547c22fb52351f8916214446962fbbca5282e8d972b104fb5. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 214eeb2e9b23a205d2063f6d8eeb7bb334c521c26d50809f6223e2af79ec7f5e. Stop the container before attempting removal or force remove
+34c063e8017ca383ef87ad876cd03a8e7f01142134b75c7bd23f81d5da42970d
+SSH: EXEC: completed after 1,410 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

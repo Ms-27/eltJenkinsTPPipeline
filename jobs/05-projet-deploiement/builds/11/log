@@ -1,0 +1,64 @@
+Started by upstream project "[8mha:////4Jo+j/ANswUxz3ferq98yg0xc9Vzp7qLCnmL2TLKHaDfAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DE92Covys1BLdnMyyosRMoH59AKjILCfOAAAA[0m04-projet-livraison" build number [8mha:////4HXLD3YZoVcLA5lw+sHD3FBE6kpwv8tn6fjQvUUMsuNJAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DE92Covys1BLdnMyyosRMoH59E0sAtK1ltdAAAAA=[0m49
+originally caused by:
+ Started by upstream project "[8mha:////4Llc/pE6uDoN/rRi8x7JCKw/ud51k0grMkbezXR6X9ThAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH0DI92Covys1BLdktTiEn0Aq/xKYckAAAA=[0m02-projet-test" build number [8mha:////4I0CRtBnvm2HKm9lJ37ErPz0bTG1mNi2BBfNz5QJvRBzAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH0DI92Covys1BLdktTiEn0jUwB5UMmRywAAAA==[0m25
+ originally caused by:
+  Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4Evmhm0ta5icFZyxmC5iJD8+NXriI7G9qdX2yPLRGMLtAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH1jQwCHEfzzzgAAAA==[0m31
+  originally caused by:
+   Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+ Started by upstream project "[8mha:////4KIaB5QHxWf+8QgUGfBtnkVgmnhML/NnloYnpx2JLqFCAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DY92Covys1BLd3FSgQYWlqcX6AIw0kk3OAAAA[0m03-projet-metriques" build number [8mha:////4CWr3qnVQ2LfP5QNHYzYfJluv55zm27XUn/ihQhNoiaGAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DY92Covys1BLd3FSgQYWlqcX6xqYAd0JxttAAAAA=[0m35
+ originally caused by:
+  Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4Evmhm0ta5icFZyxmC5iJD8+NXriI7G9qdX2yPLRGMLtAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH1jQwCHEfzzzgAAAA==[0m31
+  Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4PB8hfIY9RJaNkSKu3Vl0Hs3sfCGWGH5z0vDtp3ehKJaAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH1jIwA9QPVqzgAAAA==[0m32
+  originally caused by:
+   Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+755fa3ce3e91
+755fa3ce3e91
+Untagged: springbootapp:latest
+Untagged: ms27ms27/springbootapp:1.0
+Deleted: sha256:c3e85866837e2a9155ea11d0170177d35923c894f736ff30baf322388bbd838f
+Deleted: sha256:e88cfa1f10c1b447d0cc1e4443981e6dd525bcc601729dcb5b261801313470cc
+Deleted: sha256:d1b6c8d561f975fa69ef7c1e50ab84f99cc4fcec0db73fc8eff171e75ffd9cad
+Untagged: ms27ms27/springbootapp@sha256:99ab8927e986908f883b185ccb293dd713569a85086f6590259162a49ee7ee17
+Deleted: sha256:b61f233699ba9b0b2cd77c936b5c2fc5afcda762a1c45fd82dcec6db2933a8d0
+Deleted: sha256:0fd458e857edd413a1b0ffda0599308e2bc68e0b34a9f31bedb6e7504872f737
+Deleted: sha256:a0cfb0537077cbb591112d3da708ac100efba733627c3770f5e59ca0f21e8b68
+Deleted: sha256:6ae42fc070538e01cf569f392cd94f6ecabe837191e76f49aae96a2381d7600d
+Untagged: ms27ms27/springbootapp@sha256:780a98bf9591b4be4d0a35a27445738bd65b301f733ab70176656df9a7f34ceb
+Deleted: sha256:018a16972c0de7afd6911925c3559edc1d68614916b2ebec7cb480a6bdf3a5d2
+Deleted: sha256:58564c7d2033283897095d27e48d5040d5987008abc012298e87b045f64f7b07
+Untagged: openjdk:8-jre-alpine
+Untagged: openjdk@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Deleted: sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4
+Error response from daemon: conflict: unable to delete e88cfa1f10c1 (cannot be forced) - image has dependent child images
+Error: No such image: c3e85866837e
+Error: No such image: d1b6c8d561f9
+Error: No such image: a0cfb0537077
+Error: No such image: 0fd458e857ed
+Unable to find image 'ms27ms27/springbootapp:1.0' locally
+1.0: Pulling from ms27ms27/springbootapp
+e7c96db7181b: Already exists
+f910a506b6cb: Already exists
+b6abafe80f63: Already exists
+ff7ccbd7f8c0: Pulling fs layer
+ff7ccbd7f8c0: Verifying Checksum
+ff7ccbd7f8c0: Download complete
+ff7ccbd7f8c0: Pull complete
+Digest: sha256:99ab8927e986908f883b185ccb293dd713569a85086f6590259162a49ee7ee17
+Status: Downloaded newer image for ms27ms27/springbootapp:1.0
+18de8239c1b64e04ff18863aa55cbd4aaae8c02c8be6316e6ffa10a63e8df07c
+SSH: EXEC: completed after 4,663 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4JLNbnFB+5BMxRVnfPHmRCo9lAYA8sIY4gCgX+ZdFktQAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH0DM92Covys1BLdstSizLRKfQDJYshjywAAAA==[0m06-projet-verify
+Finished: SUCCESS

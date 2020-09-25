@@ -1,0 +1,15 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker run -d -p 8080:8080 ms27ms27/springbootapp:1.0] ...
+67aada6830afbc31005350412a0f266758ad9db3390802cab142844e44f0ecba
+docker: Error response from daemon: driver failed programming external connectivity on endpoint dazzling_kapitsa (a487bba62764086a37e69dba5072c3e297f1b4f2eee8003b5200210aa3d371d3): Bind for 0.0.0.0:8080 failed: port is already allocated.
+SSH: EXEC: completed after 405 ms
+SSH: Disconnecting configuration [VM3] ...
+ERROR: Exception when publishing, exception message [Exec exit status not zero. Status [125]]
+Build step 'Send files or execute commands over SSH' changed build result to UNSTABLE
+[Checks API] No suitable checks publisher found.
+Finished: UNSTABLE

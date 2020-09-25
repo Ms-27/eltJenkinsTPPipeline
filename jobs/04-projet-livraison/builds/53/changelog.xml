@@ -1,0 +1,9 @@
+commit b6fb2f69ddbf0036637b91ea5f1e3ee44d5f91bc
+tree 8c5c6711417cfc1268012f432565dd4e81d2da7e
+parent 7cfb0915758908cfed958e2f07a623b9f970a1ef
+author Ms-27 <ms@juliver.com> 2020-09-25 15:05:21 +0200
+committer GitHub <noreply@github.com> 2020-09-25 15:05:21 +0200
+
+    Update hello.html
+
+:100644 100644 d126ce801b2e308120bf64f09b40cafdeeec6b84 58263a999c7ed970b9d501c7a93f77cde76f7b97 M	src/main/resources/templates/hello.html

@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4KIaB5QHxWf+8QgUGfBtnkVgmnhML/NnloYnpx2JLqFCAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DY92Covys1BLd3FSgQYWlqcX6AIw0kk3OAAAA[0m03-projet-metriques" build number [8mha:////4IY3VCsJpkxfKj92v+CtsmXLWFuHNMznoizpTQ59znSTAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DY92Covys1BLd3FSgQYWlqcX6xoYAboYcsdAAAAA=[0m31
+originally caused by:
+ Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/04-projet-fin
+[Checks API] No suitable checks publisher found.
+[04-projet-fin] $ /bin/sh -xe /tmp/jenkins2499509961251447716.sh
++ echo Je déploie!
+Je déploie!
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+commit 4b5aee9b8441d993cdfaafb9178aab7aa58d9846
+tree a2c4fb00aa52222ac4154ea24160bea741e219a8
+parent 96f4fa0df3e0632bed411267d5f9bd9512fef582
+author Ms-27 <ms@juliver.com> 2020-09-25 15:42:23 +0200
+committer GitHub <noreply@github.com> 2020-09-25 15:42:23 +0200
+
+    Create Jenkinsfile
+
+:000000 100644 0000000000000000000000000000000000000000 8b137891791fe96927ad78e64b0aad7bded08bdc A	Jenkinsfile

@@ -1,0 +1,53 @@
+Started by upstream project "[8mha:////4Jo+j/ANswUxz3ferq98yg0xc9Vzp7qLCnmL2TLKHaDfAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DE92Covys1BLdnMyyosRMoH59AKjILCfOAAAA[0m04-projet-livraison" build number [8mha:////4OxaZw0DQhISxKpfghwQ5xcziyITH2/fCapSGhMqelWxAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DE92Covys1BLdnMyyosRMoH59MyMAvhaBENAAAAA=[0m62
+originally caused by:
+ Started by upstream project "[8mha:////4Llc/pE6uDoN/rRi8x7JCKw/ud51k0grMkbezXR6X9ThAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH0DI92Covys1BLdktTiEn0Aq/xKYckAAAA=[0m02-projet-test" build number [8mha:////4PfIcsM6XLk/Uec3AtxqBKmiKk8wd6miRMERddxDjS4vAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JH0DI92Covys1BLdktTiEn1jcwAUANxmywAAAA==[0m37
+ originally caused by:
+  Started by upstream project "[8mha:////4CpdNn1mpcTOn/3tTy44satfrJw3PrpW2Ka5eSRXYGJqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JH0DQ92Covys1BLdgsTk7MT0VH0ACdygVcwAAAA=[0m01-projet-package" build number [8mha:////4GCjw34d8UCz16i1e0FSx99/sOM0Dq4WG8YZhNhCaU1QAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JH0DQ92Covys1BLdgsTk7MT0VH0TYwBs5rNSzgAAAA==[0m43
+  originally caused by:
+   Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+f8eeadd05d66
+f8eeadd05d66
+Untagged: ms27ms27/springbootappvpl:1.0
+Untagged: ms27ms27/springbootappvpl@sha256:a50f646697bbcd24fabc727405ef5da7a96b50ac483b476932619e171d7e3ebd
+Deleted: sha256:c616bd645d489777fec77c760ec1f9d3deb4f684767df70fd9ecd5377fe42dbb
+Deleted: sha256:6b90766af8dd4a952813b7b63f3228def39df59194612517e795af000884fa73
+Deleted: sha256:aba8cd4318a8a15f59f305368e49cc3bbd0d6d72171a0b24d08cc00513b14ef4
+Deleted: sha256:c318fbba92645a83843c387bd78497e7b143ecc7f5ed99dcb7d38fc62442c02a
+Deleted: sha256:f1b5933fe4b5f49bbe8258745cf396afe07e625bdab3168e364daf7c956b6b81
+Unable to find image 'ms27ms27/springbootapp:1.0' locally
+1.0: Pulling from ms27ms27/springbootapp
+e7c96db7181b: Pulling fs layer
+f910a506b6cb: Pulling fs layer
+b6abafe80f63: Pulling fs layer
+d92025a382ae: Pulling fs layer
+d92025a382ae: Waiting
+f910a506b6cb: Verifying Checksum
+f910a506b6cb: Download complete
+e7c96db7181b: Verifying Checksum
+e7c96db7181b: Download complete
+e7c96db7181b: Pull complete
+f910a506b6cb: Pull complete
+d92025a382ae: Verifying Checksum
+d92025a382ae: Download complete
+b6abafe80f63: Download complete
+b6abafe80f63: Pull complete
+d92025a382ae: Pull complete
+Digest: sha256:6919cf900695ce1addf87626846f81f7016d4945d44f4bc191d1905de6f1a4f4
+Status: Downloaded newer image for ms27ms27/springbootapp:1.0
+178ce773f0c068e4df9e0db7ddbd218068b09dec8abcdb08949215a13fc77a54
+SSH: EXEC: completed after 7,418 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4JLNbnFB+5BMxRVnfPHmRCo9lAYA8sIY4gCgX+ZdFktQAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH0DM92Covys1BLdstSizLRKfQDJYshjywAAAA==[0m06-projet-verify
+Finished: SUCCESS

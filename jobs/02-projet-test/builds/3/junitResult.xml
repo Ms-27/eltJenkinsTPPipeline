@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.35">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/projet-test/target/surefire-reports/TEST-com.reytech.demo.DemoApplicationTests.xml</file>
+      <name>com.reytech.demo.DemoApplicationTests</name>
+      <duration>5.182</duration>
+      <time>5.182</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.361</duration>
+          <className>com.reytech.demo.DemoApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>5.182</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

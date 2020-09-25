@@ -1,0 +1,9 @@
+commit 8b83aa9ebaa61f4d68604ef30534615c0acec1c9
+tree aaac4b2542b3efe8ea2584acee6bcf6ab8488556
+parent e04dc71e8201be6ca612a97d6df6d774871d0ed1
+author Ms-27 <ms@juliver.com> 2020-09-23 10:32:58 +0200
+committer GitHub <noreply@github.com> 2020-09-23 10:32:58 +0200
+
+    Update DemoApplication.java
+
+:100644 100644 990af98ebcdacb9fbe7570cc788ce56622c36768 f12118274a03fc7f6eb7156da5edebd22cbcf766 M	src/main/java/com/reytech/demo/DemoApplication.java

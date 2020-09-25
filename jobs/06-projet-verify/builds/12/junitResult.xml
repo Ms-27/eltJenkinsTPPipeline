@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.35">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/06-projet-selenium/target/surefire-reports/TEST-me.arndc.example.testing.automation.SeleniumTest.xml</file>
+      <name>me.arndc.example.testing.automation.SeleniumTest</name>
+      <duration>4.889</duration>
+      <time>4.889</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.647</duration>
+          <className>me.arndc.example.testing.automation.SeleniumTest</className>
+          <testName>test</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;jenkinsafcepf&apos;, ip: &apos;127.0.2.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-91-generic&apos;, java.version: &apos;1.8.0_242&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x555e455c9a39 &lt;unknown&gt;
+
+	at me.arndc.example.testing.automation.SeleniumTest.setUp(SeleniumTest.java:40)
+</errorStackTrace>
+          <errorDetails>unknown error: cannot find Chrome binary
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;jenkinsafcepf&apos;, ip: &apos;127.0.2.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-91-generic&apos;, java.version: &apos;1.8.0_242&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: #0 0x555e455c9a39 &lt;unknown&gt;
+</errorDetails>
+          <stdout>10:31:18.448 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.453 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:31:18.468 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:31:18.489 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [me.arndc.example.testing.automation.SeleniumTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:31:18.514 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [me.arndc.example.testing.automation.SeleniumTest], using SpringBootContextLoader
+10:31:18.517 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [me.arndc.example.testing.automation.SeleniumTest]: class path resource [me/arndc/example/testing/automation/SeleniumTest-context.xml] does not exist
+10:31:18.518 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [me.arndc.example.testing.automation.SeleniumTest]: class path resource [me/arndc/example/testing/automation/SeleniumTestContext.groovy] does not exist
+10:31:18.518 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [me.arndc.example.testing.automation.SeleniumTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:31:18.570 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.782 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [me.arndc.example.testing.automation.SeleniumTest]: using defaults.
+10:31:18.783 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:31:18.807 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+10:31:18.811 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:31:18.817 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1534f01b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78e117e3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2ea227af, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4386f16, org.springframework.test.context.support.DirtiesContextTestExecutionListener@363ee3a2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4690b489, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@79b06cab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3eb7fc54, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7f552bd3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c22fc4c]
+10:31:18.827 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.827 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.829 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.829 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.833 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.834 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.838 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4b5d6a01 testClass = SeleniumTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a22f9e2 testClass = SeleniumTest, locations = &apos;{}&apos;, classes = &apos;{class me.arndc.example.testing.automation.ThymeleafApplication, class me.arndc.example.testing.automation.ThymeleafApplication}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}&apos;, contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5faeada1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1563da5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@631330c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1500955a], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.boot.test.context.SpringBootContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.activateListener&apos; -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+10:31:18.845 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.845 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [me.arndc.example.testing.automation.SeleniumTest]
+10:31:18.851 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@4b5d6a01 testClass = SeleniumTest, testInstance = me.arndc.example.testing.automation.SeleniumTest@57c758ac, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4a22f9e2 testClass = SeleniumTest, locations = &apos;{}&apos;, classes = &apos;{class me.arndc.example.testing.automation.ThymeleafApplication, class me.arndc.example.testing.automation.ThymeleafApplication}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}&apos;, contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5faeada1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1563da5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@631330c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1500955a], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.boot.test.context.SpringBootContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.activateListener&apos; -&gt; false]]].
+10:31:18.898 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___&apos;_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | &apos;_ | &apos;_| | &apos;_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  &apos;  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2020-09-25 10:31:19.296  INFO 24039 --- [           main] m.a.e.testing.automation.SeleniumTest    : Starting SeleniumTest on jenkinsafcepf with PID 24039 (started by jenkins in /var/lib/jenkins/workspace/06-projet-selenium)
+2020-09-25 10:31:19.298  INFO 24039 --- [           main] m.a.e.testing.automation.SeleniumTest    : No active profile set, falling back to default profiles: default
+2020-09-25 10:31:21.089  INFO 24039 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-09-25 10:31:21.118  INFO 24039 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-25 10:31:21.118  INFO 24039 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-09-25 10:31:21.232  INFO 24039 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-25 10:31:21.233  INFO 24039 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1888 ms
+2020-09-25 10:31:21.805  INFO 24039 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &apos;applicationTaskExecutor&apos;
+2020-09-25 10:31:21.990  WARN 24039 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-09-25 10:31:22.430  INFO 24039 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path &apos;&apos;
+2020-09-25 10:31:22.441  INFO 24039 --- [           main] m.a.e.testing.automation.SeleniumTest    : Started SeleniumTest in 3.541 seconds (JVM running for 4.645)
+</stdout>
+          <stderr>Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 7494
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</stderr>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>0.658</duration>
+          <className>me.arndc.example.testing.automation.SeleniumTest</className>
+          <testName>test</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.NullPointerException
+	at me.arndc.example.testing.automation.SeleniumTest.tearDown(SeleniumTest.java:55)
+</errorStackTrace>
+          <failedSince>10</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>4.889</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

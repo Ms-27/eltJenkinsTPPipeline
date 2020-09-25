@@ -1,0 +1,9 @@
+commit 7635de5124d6aa745369909c83326a217e1f7e85
+tree 7c5fb810baa64d16fb38ed4bce5172b17cf428c5
+parent dbc0791ee9bbaeae3ffcea249972b1c21b543b97
+author Ms-27 <ms@juliver.com> 2020-09-25 12:20:51 +0200
+committer GitHub <noreply@github.com> 2020-09-25 12:20:51 +0200
+
+    Update SeleniumTest.java
+
+:100644 100644 429e39cb7691bfac306c9bcdf40d103f243b5191 89cb3ca5c94f3511a48dc259c6c8575ddc00cbcf M	src/test/java/me/arndc/example/testing/automation/SeleniumTest.java

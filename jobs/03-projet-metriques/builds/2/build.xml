@@ -1,0 +1,131 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>01-projet-package</upstreamProject>
+            <upstreamUrl>job/01-projet-package/</upstreamUrl>
+            <upstreamBuild>17</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.4.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.5.0">
+              <sha1>d97d79ccae588f360a9aebf3fea2b5367503663b</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/Ms-27/Spring-Boot-Hello-World-Example</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.4.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/02b-projet-metrique</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.plugins.jacoco.JacocoBuildAction plugin="jacoco@3.0.8">
+      <clazz>
+        <missed>0</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </clazz>
+      <method>
+        <missed>3</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </method>
+      <line>
+        <missed>5</missed>
+        <covered>3</covered>
+        <initialized>true</initialized>
+      </line>
+      <complexity>
+        <missed>3</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </complexity>
+      <instruction>
+        <missed>14</missed>
+        <covered>9</covered>
+        <initialized>true</initialized>
+      </instruction>
+      <branch>
+        <missed>0</missed>
+        <covered>0</covered>
+        <initialized>true</initialized>
+      </branch>
+      <maxClazz>1</maxClazz>
+      <maxMethod>1</maxMethod>
+      <maxLine>1</maxLine>
+      <maxComplexity>1</maxComplexity>
+      <maxInstruction>1</maxInstruction>
+      <maxBranch>1</maxBranch>
+      <failed>false</failed>
+      <inclusions>
+        <string></string>
+      </inclusions>
+      <exclusions>
+        <string></string>
+      </exclusions>
+      <thresholds>
+        <minClass>0</minClass>
+        <maxClass>0</maxClass>
+        <minMethod>0</minMethod>
+        <maxMethod>0</maxMethod>
+        <minLine>0</minLine>
+        <maxLine>0</maxLine>
+        <minBranch>0</minBranch>
+        <maxBranch>0</maxBranch>
+        <minInstruction>0</minInstruction>
+        <maxInstruction>0</maxInstruction>
+        <minComplexity>0</minComplexity>
+        <maxComplexity>0</maxComplexity>
+      </thresholds>
+    </hudson.plugins.jacoco.JacocoBuildAction>
+  </actions>
+  <queueId>64</queueId>
+  <timestamp>1600780240772</timestamp>
+  <startTime>1600780240810</startTime>
+  <result>SUCCESS</result>
+  <duration>86454</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/02b-projet-metrique</workspace>
+  <hudsonVersion>2.222.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.4.3">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

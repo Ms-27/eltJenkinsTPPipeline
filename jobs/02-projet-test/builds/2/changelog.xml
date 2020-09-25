@@ -1,0 +1,9 @@
+commit 3eb5e2ae09aedffbd8aa5429737ce2f36797f5a1
+tree 4bc5d60cfcc6793f2ae43e28b31a23162a438370
+parent e84844b154a81f9b6d0f40e633f6d1cb3c63ad21
+author Ms-27 <ms@juliver.com> 2020-09-22 10:38:20 +0200
+committer GitHub <noreply@github.com> 2020-09-22 10:38:20 +0200
+
+    Update DemoApplicationTests.java
+
+:100644 100644 7201cb7748fee8db3bd4178d85cfe9649dce158c 22a0581d5b94af3083bac6aa52b9ff6fcdf52d35 M	src/test/java/com/reytech/demo/DemoApplicationTests.java

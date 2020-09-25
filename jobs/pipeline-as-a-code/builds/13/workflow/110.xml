@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.83">
+    <parentIds>
+      <string>109</string>
+    </parentIds>
+    <id>110</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.83">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+            <symbol>sshPublisher</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>continueOnError</string>
+                <boolean>false</boolean>
+              </entry>
+              <entry>
+                <string>failOnError</string>
+                <boolean>true</boolean>
+              </entry>
+              <entry>
+                <string>publishers</string>
+                <list>
+                  <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                    <symbol>sshPublisherDesc</symbol>
+                    <arguments class="linked-hash-map">
+                      <entry>
+                        <string>configName</string>
+                        <string>VM3</string>
+                      </entry>
+                      <entry>
+                        <string>verbose</string>
+                        <boolean>true</boolean>
+                      </entry>
+                      <entry>
+                        <string>transfers</string>
+                        <list>
+                          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                            <symbol>sshTransfer</symbol>
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <string>sourceFiles</string>
+                                <string>target/*.jar</string>
+                              </entry>
+                              <entry>
+                                <string>removePrefix</string>
+                                <string>/target</string>
+                              </entry>
+                              <entry>
+                                <string>remoteDirectory</string>
+                                <string></string>
+                              </entry>
+                              <entry>
+                                <string>execCommand</string>
+                                <string>
+                    sudo mv demo-0.0.1-SNAPSHOT.jar /home/vagrant/project;
+                    cd project;
+                    sudo docker build -t springbootappvpl . ;
+                    docker tag springbootappvpl ms27ms27/springbootappvpl:1.0
+                    docker push ms27ms27/springbootappvpl:1.0 </string>
+                              </entry>
+                            </arguments>
+                          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                        </list>
+                      </entry>
+                    </arguments>
+                  </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+                </list>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1601045228995</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

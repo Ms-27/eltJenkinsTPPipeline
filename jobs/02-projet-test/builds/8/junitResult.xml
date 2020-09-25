@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.35">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/projet-test/target/surefire-reports/TEST-com.reytech.demo.DemoApplicationTests.xml</file>
+      <name>com.reytech.demo.DemoApplicationTests</name>
+      <duration>3.425</duration>
+      <time>3.425</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.179</duration>
+          <className>com.reytech.demo.DemoApplicationTests</className>
+          <testName>testTwo</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.015</duration>
+          <className>com.reytech.demo.DemoApplicationTests</className>
+          <testName>testOne</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/workspace/projet-test/target/surefire-reports/TEST-com.reytech.demo.StandardAssertionsTest.xml</file>
+      <name>com.reytech.demo.StandardAssertionsTest</name>
+      <duration>0.005</duration>
+      <time>0.005</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.reytech.demo.StandardAssertionsTest</className>
+          <testName>groupedAssertions</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>com.reytech.demo.StandardAssertionsTest</className>
+          <testName>standardAssertions</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>org.opentest4j.AssertionFailedError: expected: &lt;2&gt; but was: &lt;5&gt;
+	at com.reytech.demo.StandardAssertionsTest.standardAssertions(StandardAssertionsTest.java:22)
+</errorStackTrace>
+          <errorDetails>expected: &lt;2&gt; but was: &lt;5&gt;</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>3.43</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.5">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.83">
+    <parentIds>
+      <string>62</string>
+    </parentIds>
+    <id>63</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.83">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.20">
+            <symbol>jacoco</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>classPattern</string>
+                <string>target/classes</string>
+              </entry>
+              <entry>
+                <string>exclusionPattern</string>
+                <string>src/test*</string>
+              </entry>
+              <entry>
+                <string>execPattern</string>
+                <string>target/*.exec</string>
+              </entry>
+              <entry>
+                <string>sourcePattern</string>
+                <string>src/main/java</string>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.40">
+      <startTime>1601042358532</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

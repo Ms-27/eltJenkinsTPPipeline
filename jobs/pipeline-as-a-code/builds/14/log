@@ -1,0 +1,748 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Obtained Jenkinsfile from git https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4FmhugxKW5ePo4itCIfv6/svp9ysgIT/f2OdQ5D7HB0yAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4JFSYmikPDSq/pYYcpnevhtGsvCq4vnO6cBiwnJ6TjA1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Dqk+r8F+YFM27rB2fpJxIp18n7SigdbTfuwkIJJ/xJFAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline-as-a-code
+[8mha:////4Mx/YB2s/zWiyb8jQL3CpYdHDqyz3dUnpt6+GAslv7v2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NM8frqyT+2gB/i/1SlJGfvy7JM3cg4w10FP7xs0RAM4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GLXSk0/BDrgW5eRj9qkTTFG1ie14/Xk5URNU/3wtaOYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4DQEYV9N5oJurHOyJ3r++y6lB6UN8qVjOY/baCgA3LljAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/Spring-Boot-Hello-World-Example # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 70b546ed49c95218a0c7d10991e36adf3a31a2e4 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 70b546ed49c95218a0c7d10991e36adf3a31a2e4 # timeout=10
+Commit message: "Update Jenkinsfile"
+ > /usr/bin/git rev-list --no-walk 6404635c2b1f29053c3aac19c70ffa5ecaee47ff # timeout=10
+[Checks API] No suitable checks publisher found.
+[8mha:////4Kg3S3BG12pEcCN1g5prxwnEQnqiPUGU5zoTCxAHznqAAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4DRpX1hvc6A136/sGE/j/MzVPFLnnDeGqQ4zoBr18b6FAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4E9tAe8GO3H2qiuAX/o7x147XhVlwbakMG7KfJm3Qq2ZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4OK2f+MvYXlttdf86Kl70SpnckXgGbslAx6J9YdSIAgzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4KuKzLtZt+7mvwGz6LHFj/HE8ImizuLGZZy6Y+KKereVAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4ILipq76d8+e/USHWYNSWXRbMcSMSisWOrmG+8CreralAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Jxb4Cd81M4x7X62uKVbP61tJyn0EyEhDYF/riCHOXTAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4KaGixasEQIb/xq3C2WFD7IpPKvlp5m2p2tBRO3iiJ00AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4CbhEpc7QhHIK7C3CDYs67l8+S5+Xcw1tpmbbzRgfy+aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4PyI0nWWV4jJs3L4Q1QydLxrmqi5MnK5oRXxmLVNzq89AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4N3DTmuqbaGSanD/MQ7fJAIzgLbJEH0GqWiTMdoDDrCcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4K5Y9mI40xDRjxZvNkXFpN7Nk7bGFbGc049DUDPz8plbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4DPjp6mU225LEQm/nZf0yj8GrDEvbQAVGTsOljjEA0KYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Ly81NWUhuLslYngOCL41W2QzJyMZeCrOKSUVPqZJXnaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4FQ5BGaUpaDm+wItaRbSkKbkYroAKda+74tUaZB5byllAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4ELJwWvvdbpwgz9edI8b4jSJcSJwrqND2hGb0I2xnGb/AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4GDsojhFVm8j5u6prRdNjVdzgtDWUNWvK/Y5spFBwOBoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4AVKDkYSKS5BRxbKYV90hawvu8QhpDQfe/xmzfO+qLOKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4BO5GhN5a2QPRTDXaz7aJorqRQ6VzL8wVDzBj8TyVKaOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] echo
+-=- Checkout project -=-
+[8mha:////4JTS7jCnVEulDt1n8NMB4NGzfCXAEQJHPB6svV5jDN/LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 70b546ed49c95218a0c7d10991e36adf3a31a2e4 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 70b546ed49c95218a0c7d10991e36adf3a31a2e4 # timeout=10
+ > /usr/bin/git branch -a -v --no-abbrev # timeout=10
+ > /usr/bin/git branch -D master # timeout=10
+ > /usr/bin/git checkout -b master 70b546ed49c95218a0c7d10991e36adf3a31a2e4 # timeout=10
+Commit message: "Update Jenkinsfile"
+[Checks API] No suitable checks publisher found.
+[8mha:////4Jn/sgfiXC1K3G1T8n0xzUJIcH0FA8SyxT2GeeM1zYBxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4FEbE37i1eu7luJHcVLgZMGL3ZhyRFUvx4xuE/VUduCkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NicsR6PSSRdq1XE2fk1ThgWH2gwkfvim3LFyDiWal9eAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPsXVX92+AAAA[0m[Pipeline] }
+[8mha:////4CafWan7PWNtED3tbgDWZX7XDJg4i+sHZZj7zvI1/Uq/AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvP/Y2BGG+AAAA[0m[Pipeline] // stage
+[8mha:////4JbfI+u+BpMqh6U8HBlR2mQBfWnMhAZz2s9FuJ+BoNSLAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQED/Pa2wgAAAA==[0m[Pipeline] stage
+[8mha:////4FCQfe1XcrKXaLWJEtJYe0LRE92BD1WBunms0sKRw7XQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Package)
+[8mha:////4NqAjq2G3+f+xz6ZBbTBwvVMv7PXBTGWuQpK6NK2A2smAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] tool
+[8mha:////4BZiu4nAJZRLuHcmTx/fx97iM0ObY4Wto7nbRIuBL77dAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fWFYUrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4PDPZ66CrlWMQjGlQsSIlqlh3APhImnbk6JeBtxciv8TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qMSCmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qAw548yPCAAAA[0m[Pipeline] withEnv
+[8mha:////4PIkkD31pPi4xOcf6IL1ncuxSuSrm5xqwhDEEBvUb6doAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4Pt75ewGCcPLvPDBeH/0SbzGPANDTSJXOR7NiYTv3vV/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] echo
+-=- packaging project -=-
+[8mha:////4L9UAAHm0KjTVzgjyoWsRY450gUCuwMrOonAuK17B/znAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFHPe70vgAAAA==[0m[Pipeline] sh
++ mvn clean package -Dmaven.test.skip=true
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/pipeline-as-a-code/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:prepare-agent[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/pipeline-as-a-code/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Not copying test resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Not compiling test sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:report[m [1m(report)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/pipeline-as-a-code/target/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:repackage[m [1m(repackage)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.841 s
+[[1;34mINFO[m] Finished at: 2020-09-25T15:00:31Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4KIpUYpmMbZxBEYtuwQ3Uf4gsUx5DtCIsMJiILfzWO4YAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAP3+A6L4AAAA=[0m[Pipeline] }
+[8mha:////4FT6cccKBL6udpzIauNRME35sFNwggSivT5DUCItz2pzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8MnNtUvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PbhqS0hJDsWV1lTXGYIQ3I4nQf4mv7Uw4kWsMagr6JPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPy0aJaK+AAAA[0m[Pipeline] }
+[8mha:////4PQiFgSClXuyAbT9ELiFMjpjFOQBl8cHi+8ZnJY/k+YNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvPx75fh6+AAAA[0m[Pipeline] // stage
+[8mha:////4P0ZIlItw1YFHKoR9p1LQZJkEISrlsL72kOpPysQ6OI2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSF0QYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2QIQilwgAAAA==[0m[Pipeline] stage
+[8mha:////4Gs/V7iAtJEMraU3/S6IcWMcfe6zIdW0SmUS12lkBxRhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Test)
+[8mha:////4D+RJ+f9DmxW3PLQoOAMWvk8PDCqvAu97n5A56sJK004AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] tool
+[8mha:////4AWX0n2sy9Op3exjfgSbvAg8TEdljSlNoUD/mv786p6JAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4FJNd02W387rnhVq7AIj3MhFIh6+OQCqoE7lK0q5G9wkAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA8BHNAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JWcqc8Y6PpcTvnFJXSK7oqeffOCMXWqTlnPpvfIXWF7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4Et9kn8SYtXZmjJv/FX1lBMSXPkIkR+MWCigjdUY8D/TAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] echo
+-=- Test project -=-
+[8mha:////4BvkFUskcTZ3R+fSs0o5ILy7FOqZxqwohtHIgbGFr4MbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] sh
++ mvn clean test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/pipeline-as-a-code/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:prepare-agent[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/pipeline-as-a-code/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/pipeline-as-a-code/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/pipeline-as-a-code/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.reytech.demo.[1mDemoApplicationTests[m
+15:00:49.854 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:00:49.927 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:00:50.105 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reytech.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:00:50.227 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.DemoApplicationTests], using SpringBootContextLoader
+15:00:50.262 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTests-context.xml] does not exist
+15:00:50.263 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTestsContext.groovy] does not exist
+15:00:50.268 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reytech.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:00:50.271 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reytech.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:50.493 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.reytech.demo.DemoApplicationTests]
+15:00:50.878 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/pipeline-as-a-code/target/classes/com/reytech/demo/DemoApplication.class]
+15:00:50.880 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.DemoApplicationTests
+15:00:51.607 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reytech.demo.DemoApplicationTests]: using defaults.
+15:00:51.609 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:00:51.719 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:00:51.727 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:00:51.745 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ccdc7aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a536164, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1657b017, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@368424db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44864536, org.springframework.test.context.event.EventPublishingTestExecutionListener@455f4483, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e239337, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7996d0d4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@fcf9525, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@300bb303, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4243341e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@d1c5cf2]
+15:00:51.755 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7cca31fc testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@619c3546 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.reytech.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6a1d3225, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f89331f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@59696551, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6192a5d5, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+BeforeAll
+15:00:51.972 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-09-25 15:00:53.555  INFO 6678 --- [           main] com.reytech.demo.DemoApplicationTests    : Starting DemoApplicationTests on jenkinsafcepf with PID 6678 (started by jenkins in /var/lib/jenkins/workspace/pipeline-as-a-code)
+2020-09-25 15:00:53.559  INFO 6678 --- [           main] com.reytech.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-25 15:00:59.465  INFO 6678 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 15:01:00.207  INFO 6678 --- [           main] com.reytech.demo.DemoApplicationTests    : Started DemoApplicationTests in 8.193 seconds (JVM running for 14.651)
+BeforeEach
+TEST 2
+AfterEach
+BeforeEach
+TEST 1
+AfterEach
+AfterAll
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.113 s - in com.reytech.demo.[1mDemoApplicationTests[m
+[[1;34mINFO[m] Running com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-25 15:01:00.663  INFO 6678 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.StandardAssertionsTest], using SpringBootContextLoader
+2020-09-25 15:01:00.667  INFO 6678 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.reytech.demo.StandardAssertionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-25 15:01:00.670  INFO 6678 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reytech.demo.StandardAssertionsTest]: StandardAssertionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-25 15:01:00.684  INFO 6678 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.StandardAssertionsTest
+2020-09-25 15:01:00.691  INFO 6678 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-25 15:01:00.717  INFO 6678 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@708c1263, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35b2a73e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@885ac1a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@65dfb9ed, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7550b03f, org.springframework.test.context.event.EventPublishingTestExecutionListener@557b62fc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@703be135, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68332e0e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1812ba7f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16704703, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39ed2eb1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@485f34dc]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-25 15:01:00.920  INFO 6678 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.284 s
+[[1;34mINFO[m] Finished at: 2020-09-25T15:01:01Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Post stage
+[8mha:////4J+BttxhTi8ErtvJRXO1WiJJsj1+FIhUUDVUxiRH/cioAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAeuptSb4AAAA=[0m[Pipeline] junit
+Recording test results
+[8mha:////4E13hXKqWSJdmjrgxSggmQNPXE/e7KDhK91Gso27GQM9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] }
+[8mha:////4PGEEMucBybJQs8jw+VceQ+7wSyHn89lg5sCU6G7dtPqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBAkJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw/LvZgKvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PKXfl7D+BkS3M3fvdglrYnBgRTUKJVB7ZgLguOQeG6HAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpSIWoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79ANMSdb++AAAA[0m[Pipeline] }
+[8mha:////4IIuERO2uOYBqARrRKLuwzwr8TbBp8lRAsvPqHmQNVZ1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSBBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP+tQ5k6+AAAA[0m[Pipeline] // stage
+[8mha:////4MumCIiNGx8IcMLCpET9Mqn5++tqBaDeGMEFluhYHLoDAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDAgh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm+KWOuFwgAAAA==[0m[Pipeline] stage
+[8mha:////4NcFNlabQrlxHuunLSd3DDJoUAi0byxNsbVBzIOQXT9MAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Code coverage)
+[8mha:////4FMkFk94qQHG2abFvnOOvYUFxl0ETFT0lpLJQsCzsCULAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] tool
+[8mha:////4CG/SKj9xjjts1KOG2ztM+2wnVDfGXUc3u8ffP8lDMdNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+LPcATvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FjL17DiJO2KdB6WLIa3HRYAOWtoUwYykKF6A5pcZp/GAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm+1RdKgwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4J6j95IdNaPcZ95LqXS5uq97k1GgWsBtEHSkVr7l2C7rAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] {
+[8mha:////4HAvrFu0lIBYzrXxJFbBsK+DjlqxDf3XPYzBlDgmtkcQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] jacoco
+[JaCoCo plugin] Collecting JaCoCo coverage data...
+[JaCoCo plugin] target/*.exec;target/classes;src/main/java; locations are configured
+[JaCoCo plugin] Number of found exec files for pattern target/*.exec: 1
+[JaCoCo plugin] Saving matched execfiles:  /var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+[JaCoCo plugin] Saving matched class directories for class-pattern: target/classes: 
+[JaCoCo plugin]  - /var/lib/jenkins/workspace/pipeline-as-a-code/target/classes 2 files
+[JaCoCo plugin] Saving matched source directories for source-pattern: src/main/java: 
+[JaCoCo plugin] Source Inclusions: **/*.java,**/*.groovy,**/*.kt,**/*.kts
+[JaCoCo plugin] Source Exclusions: 
+[JaCoCo plugin] - /var/lib/jenkins/workspace/pipeline-as-a-code/src/main/java 2 files
+[JaCoCo plugin] Loading inclusions files..
+[JaCoCo plugin] inclusions: []
+[JaCoCo plugin] exclusions: [src/test*]
+[JaCoCo plugin] Thresholds: JacocoHealthReportThresholds [minClass=0, maxClass=0, minMethod=0, maxMethod=0, minLine=0, maxLine=0, minBranch=0, maxBranch=0, minInstruction=0, maxInstruction=0, minComplexity=0, maxComplexity=0]
+[JaCoCo plugin] Publishing the results..
+[JaCoCo plugin] Loading packages..
+[JaCoCo plugin] Done.
+[JaCoCo plugin] Overall coverage: class: 100, method: 40, line: 29, branch: 100, instruction: 30, complexity: 40
+[8mha:////4OEngwIATnPrklgM4HfJ5KXQ1raMOU0kP/0ZnKLpHntIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHKLJPpvgAAAA==[0m[Pipeline] }
+[8mha:////4DJN4T9IytcUewk+L94OWkGLAIU7VCR94sFfoD1H0bULAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN9Wuxru+AAAA[0m[Pipeline] // withEnv
+[8mha:////4JOFaJH8UI9fyzpUVPIPOBA6mmAPHrNI4gzQk4zz03JjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpiJAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEcN6NvvgAAAA==[0m[Pipeline] }
+[8mha:////4DMX+ZlYj3hNMLaBYNT8pHRHFFeNRLx8m0NW4HV0NSmyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPyj5QDS+AAAA[0m[Pipeline] // stage
+[8mha:////4LtHLKH1WnayYkGOGHvTqykj9NuNlyRp6tHCcfYlJMzMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULAiEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3C8FVFwgAAAA==[0m[Pipeline] stage
+[8mha:////4NCIMUv5c/75Fv0Vcdc18NaKfpoaIBI25mq9KPF/2dfcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] { (Sanity check)
+[8mha:////4Nu8LlWIOi32tEsm6eVInzicm7QZQHFVmGbyqftcztsCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHrW/o6vgAAAA==[0m[Pipeline] tool
+[8mha:////4OlGS2wH3Q0ib9EOPSliv8hoMDyBzPV+TKnnOP/spoG7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+qauEjvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GIF9WJPVhtp9FTr697eutbJgQPUZn/cnwIw4pfNbY/yAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm+fMSE2wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JYrWNgGugLaZ7QhiPc7+LyBuKxlDNe/Dp4I8HCPoteYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4PUHRcfoC5jlUxWdfJ4xKnfpRu5CqeoRALu1+MNP9FIXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] echo
+-=- Sanity Check Test project -=-
+[8mha:////4FhNM8jDVus/GItyhxSk2eJ7kI7Rm1CjLoSQWUae4nY/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF+8FcvvgAAAA==[0m[Pipeline] sh
++ mvn clean install checkstyle:checkstyle pmd:pmd
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/pipeline-as-a-code/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:prepare-agent[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/pipeline-as-a-code/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/pipeline-as-a-code/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/pipeline-as-a-code/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.reytech.demo.[1mDemoApplicationTests[m
+15:01:21.322 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:01:21.405 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:01:21.666 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reytech.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:01:21.790 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.DemoApplicationTests], using SpringBootContextLoader
+15:01:21.833 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTests-context.xml] does not exist
+15:01:21.840 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTestsContext.groovy] does not exist
+15:01:21.843 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reytech.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:01:21.845 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reytech.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:01:22.061 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.reytech.demo.DemoApplicationTests]
+15:01:22.388 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/pipeline-as-a-code/target/classes/com/reytech/demo/DemoApplication.class]
+15:01:22.390 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.DemoApplicationTests
+15:01:23.075 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reytech.demo.DemoApplicationTests]: using defaults.
+15:01:23.095 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:01:23.164 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:01:23.169 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:01:23.180 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1ccdc7aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1a536164, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1657b017, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@368424db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44864536, org.springframework.test.context.event.EventPublishingTestExecutionListener@455f4483, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6e239337, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7996d0d4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@fcf9525, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@300bb303, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4243341e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@d1c5cf2]
+15:01:23.193 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@7cca31fc testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@619c3546 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.reytech.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6a1d3225, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f89331f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@59696551, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6192a5d5, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+BeforeAll
+15:01:23.354 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-09-25 15:01:24.878  INFO 7178 --- [           main] com.reytech.demo.DemoApplicationTests    : Starting DemoApplicationTests on jenkinsafcepf with PID 7178 (started by jenkins in /var/lib/jenkins/workspace/pipeline-as-a-code)
+2020-09-25 15:01:24.918  INFO 7178 --- [           main] com.reytech.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-25 15:01:31.313  INFO 7178 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 15:01:33.042  INFO 7178 --- [           main] com.reytech.demo.DemoApplicationTests    : Started DemoApplicationTests in 9.628 seconds (JVM running for 15.782)
+BeforeEach
+TEST 2
+AfterEach
+BeforeEach
+TEST 1
+AfterEach
+AfterAll
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.059 s - in com.reytech.demo.[1mDemoApplicationTests[m
+[[1;34mINFO[m] Running com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-25 15:01:34.098  INFO 7178 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.StandardAssertionsTest], using SpringBootContextLoader
+2020-09-25 15:01:34.104  INFO 7178 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.reytech.demo.StandardAssertionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-25 15:01:34.106  INFO 7178 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reytech.demo.StandardAssertionsTest]: StandardAssertionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-25 15:01:34.109  INFO 7178 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.StandardAssertionsTest
+2020-09-25 15:01:34.119  INFO 7178 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-25 15:01:34.124  INFO 7178 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@708c1263, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35b2a73e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@885ac1a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@65dfb9ed, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7550b03f, org.springframework.test.context.event.EventPublishingTestExecutionListener@557b62fc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@703be135, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68332e0e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1812ba7f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@16704703, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39ed2eb1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@485f34dc]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s - in com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-25 15:01:34.357  INFO 7178 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:report[m [1m(report)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'demo' with 2 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/pipeline-as-a-code/target/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.3.1.RELEASE:repackage[m [1m(repackage)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/pipeline-as-a-code/target/demo-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/reytech/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/lib/jenkins/workspace/pipeline-as-a-code/pom.xml to /var/lib/jenkins/.m2/repository/com/reytech/demo/0.0.1-SNAPSHOT/demo-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:checkstyle[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] There are 14 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.13.0:pmd[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  42.448 s
+[[1;34mINFO[m] Finished at: 2020-09-25T15:01:49Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Post stage
+[8mha:////4GOQBXVunjSj0RFqx+xUvTHBkbxkd5+h3mj4uPvQMB9gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAG9o3oEvgAAAA==[0m[Pipeline] recordIssues
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/pipeline-as-a-code' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/pipeline-as-a-code/target/checkstyle-result.xml
+[CheckStyle] -> found 14 issues (skipped 0 duplicates)
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] Creating SCM miner to obtain statistics for affected repository files
+[CheckStyle] Resolving file names for all issues in source directory '/var/lib/jenkins/workspace/pipeline-as-a-code'
+[CheckStyle] -> resolved paths in source directory (2 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 14 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 2 affected files
+[CheckStyle] No filter has been set, publishing all 14 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 14 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/pipeline-as-a-code/builds/14/files-with-issues'
+[CheckStyle] -> 2 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Using reference build 'pipeline-as-a-code #13' to compute new, fixed, and outstanding issues
+[CheckStyle] Issues delta (vs. reference build): outstanding: 14, new: 0, fixed: 0
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 14 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to run 'pipeline-as-a-code #14'.
+[Checks API] No suitable checks publisher found.
+[8mha:////4MTP5r/7z7MmaFcDHuNKlxt+nVnp2uViRKwnExMLS9zBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUKRAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7N/ySYR2+AAAA[0m[Pipeline] recordIssues
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/pipeline-as-a-code' that match the pattern '**/target/pmd.xml'
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/pipeline-as-a-code/target/pmd.xml
+[PMD] -> found 0 issues (skipped 0 duplicates)
+[PMD] Skipping post processing
+[PMD] No filter has been set, publishing all 0 issues
+[PMD] Using reference build 'pipeline-as-a-code #13' to compute new, fixed, and outstanding issues
+[PMD] Issues delta (vs. reference build): outstanding: 0, new: 0, fixed: 0
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to run 'pipeline-as-a-code #14'.
+[Checks API] No suitable checks publisher found.
+[8mha:////4AYwP/WTAzia6zBkHmfkpx8nYqpWWkeW2A59hvDA2blgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHS5jpWvgAAAA==[0m[Pipeline] }
+[8mha:////4H1ud0rPOjMKJiYnAdBFLe3B0HPMhdWVyio4FEeC6lN/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHhBWHqvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HIv+6y3ZvpI5wOz8sVItKvKaT3Mkrx3z+G4GCYQhgV4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEJzO+1vgAAAA==[0m[Pipeline] }
+[8mha:////4Lks1Lm7K0fmwOcl+oWIc6Cn+ZaEzsqtbkVPmqjt/DvVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhQJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g86L7QJvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GP/uHrTfoNizLPR0iM0CXHd386doxUl5wsWeWl1dtaWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMIFQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQH5qPG0wgAAAA==[0m[Pipeline] stage
+[8mha:////4GHpTxTyMMB0aOjWZioqk1lr53K4y1jZvBB7pwRsehPqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] { (Quality Analysis Sonarqube)
+[8mha:////4ANx8W6YHxCFR8tS2rjG1PCiB3mwWrrvpkJsol4kvbhaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] tool
+[8mha:////4B5noVeqiH/PsCNVo4HyYHgEyQguQJTUN5rN8C5ojSCiAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QEhIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cgP+xm28/P4gNU+vLWwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4IG+jMbHmK2kd6dfdsAfNsIs5KPVmy/0gYhoqsjqkloTAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7lC07jCAAAA[0m[Pipeline] {
+[8mha:////4OgUmav+OwTEvuL/urtUtrEKd7KzjefYFtMjmWAobrPLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBsroJZ2+AAAA[0m[Pipeline] tool
+[8mha:////4Hi1l4Pfy+Sd3ISBPhA8L8B0iTT7BkQqNhnYZiEuqYDxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoUiIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BgX0vRq+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4AtcOiocMhoC82ZiETpF8+97Pf3fOjG1M1nS0WoXVZKhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAW2WZ9DCAAAA[0m[Pipeline] withEnv
+[8mha:////4LrZofJ4W2avpuNzjiCLySHDQqlnH7b6hBReDVxHILb1AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUkQoxdY2ycIKQhJA2+r8kKe3EibgadyBQiQkPlm3Jes8XVDHAkYJlncHeYVSODX60ObGJQn/xNLGOzkwRRvKGCTMJ0qZdqqBkYFFRworD2qDyFB3aBBveybusvURbn1LI24FD6fQNHlDwTE4ypG+ZA2yvo46EP85fAMxDgnLfZGt2n2f1Btc458LCAAAA[0m[Pipeline] {
+[8mha:////4OKYRfQFcBPkpGsS6q8hXtjB/SEAQVPeM+mUxVlJsuwoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube
+[8mha:////4IF2sTqhR9k1ItivHYnzhoSMlzehfFQJNzXS4Va8Y0cyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4KR+w2ZGpH3IWy4yjW0Bomipm2r6w4OCU571M1B8vDVxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN3RjbsC+AAAA[0m[Pipeline] sh
++ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarqube/bin/sonar-scanner -Dsonar.java.sources=src -Dsonar.java.binaries=target -Dsonar.projectKey=SpringBootProject_2 -Dsonar.language=java -Dsonar.sourceEncoding=UTF-8
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarqube/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/lib/jenkins/workspace/pipeline-as-a-code/sonar-project.properties
+INFO: SonarScanner 4.4.0.2170
+INFO: Java 1.8.0_242 Private Build (64-bit)
+INFO: Linux 4.15.0-91-generic amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonarqube/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/lib/jenkins/workspace/pipeline-as-a-code/sonar-project.properties
+INFO: Analyzing on SonarQube server 6.7.6
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=186ms
+INFO: Server id: BF41A1F2-AXS6DTMFJpCxMhIovYOW
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=97ms
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=220ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=37ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1718ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=98ms
+INFO: Project key: SpringBootProject_2
+INFO: -------------  Scan SpringBootProject_2
+INFO: Load server rules
+INFO: Load server rules (done) | time=626ms
+INFO: Base dir: /var/lib/jenkins/workspace/pipeline-as-a-code
+INFO: Working dir: /var/lib/jenkins/workspace/pipeline-as-a-code/.scannerwork
+INFO: Source paths: src
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Language is forced to java
+INFO: Index files
+WARN: File '/var/lib/jenkins/workspace/pipeline-as-a-code/src/main/resources/application.properties' is ignored because it doesn't belong to the forced language 'java'
+WARN: File '/var/lib/jenkins/workspace/pipeline-as-a-code/src/main/resources/templates/message.html' is ignored because it doesn't belong to the forced language 'java'
+WARN: File '/var/lib/jenkins/workspace/pipeline-as-a-code/src/main/resources/templates/hello.html' is ignored because it doesn't belong to the forced language 'java'
+INFO: 5 files indexed
+INFO: Quality profile for java: Sonar way
+INFO: Sensor JavaSquidSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+WARN: Bytecode of dependencies was not provided for analysis of source files, you might end up with less precise results. Bytecode can be provided using sonar.java.libraries property
+INFO: JavaClasspath initialization (done) | time=43ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=0ms
+INFO: Java Main Files AST scan
+INFO: 5 source files to be analyzed
+INFO: 5/5 source files have been analyzed
+INFO: Java Main Files AST scan (done) | time=2200ms
+INFO: Java Test Files AST scan
+INFO: 0 source files to be analyzed
+INFO: Java Test Files AST scan (done) | time=1ms
+INFO: Sensor JavaSquidSensor [java] (done) | time=3795ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/var/lib/jenkins/workspace/pipeline-as-a-code/target/surefire-reports]
+INFO: 0/0 source files have been analyzed
+INFO: Sensor SurefireSensor [java] (done) | time=244ms
+INFO: Sensor JaCoCoSensor [java]
+INFO: Analysing /var/lib/jenkins/workspace/pipeline-as-a-code/target/jacoco.exec
+INFO: No information about coverage per test.
+INFO: Sensor JaCoCoSensor [java] (done) | time=187ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=12ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=60ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=80ms
+INFO: 2 files had no CPD blocks
+INFO: Calculating CPD for 3 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 308ms, dir size=33 KB
+INFO: Analysis reports compressed in 46ms, zip size=15 KB
+INFO: Analysis report uploaded in 96ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://192.168.4.11:9000/dashboard/index/SpringBootProject_2
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://192.168.4.11:9000/api/ce/task?id=AXTFyRt9JsqvwvIdywft
+INFO: Task total time: 11.938 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 15.273s
+INFO: Final Memory: 11M/128M
+INFO: ------------------------------------------------------------------------
+[8mha:////4OvQE/PbN5/tq7rkEllVkE+jdsyQXaCNcfB+omNz1MLEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHsQEOYvgAAAA==[0m[Pipeline] }
+[8mha:////4NrZRxNWjn3kDSGMiUQ7TacfiZB14z9phYl0TeiFxD5HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHzwhbKvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4BsOmB8oxHi6sU1SrMv1GLGdb16aSXp/2MnmEH6gSIiDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN8uAhTu+AAAA[0m[Pipeline] }
+[8mha:////4JCIGOpnUDR7mNnlsSr/vMq/vag1W68tIloXA1zFWZBBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B4vaHpC+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BxX7dyQoEXAghW3A9lRKvw9n7AQc+izh0SINC2FnuyhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpUBCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP8919/G+AAAA[0m[Pipeline] }
+[8mha:////4HpeO6mGJrExATTu8iINDIxis4a0lQb1RuLL578Ab22/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIREhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wHQ96KjvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4P1Gj52DHQnG0xMPOcJNstKnbIL+2zT8SnMUxqi/H9sVAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JgXEwMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8BaGxkFL8AAAA=[0m[Pipeline] }
+[8mha:////4LiKMlOdnupmb02BQ3zFCOt13Su8i+8CFTiUQVdpsv/3AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHEyhmHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7iiE/7D9bjz+ovwAAAA==[0m[Pipeline] // stage
+[8mha:////4O4NlpAjl+4boj0B3gDs0KiOniaGQkAE/Z2ZLjpRLZxLAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KImzFMrg2LX1BLrYXmPWwfwuQX+Wv+gyiJk3e65yY35/mCPAaoKFjRGuwcRu1E7wc7NzFS6C6eRtHSWWjCSN6I2ow1Nea4YE1sYEmSQiZhZVB7ig4tw1q26q4Kr9AWJw7zdpCQuuYGD0jkbGYV+AtTgM11aCLhz/NXAFPPkJZ7hqzc7j7X/A1eaZAcwwAAAA==[0m[Pipeline] stage
+[8mha:////4CJruR2vb+2wbZuQ95mH0bcgB/a7PNABYog/DYAwchIJAAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BApPyPqxBp14QQhCSFp9F5JUtqJE3E17kBpJSY8WLYl63u9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ACxU3MfxAAAAA==[0m[Pipeline] { (Continuous delivery)
+[8mha:////4BFwIS2hk2Kn4IKfmB5SunMkxZVPnOGKv5hsjguEiEA7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDgg6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wVTEASOwAAAAA==[0m[Pipeline] tool
+[8mha:////4Kue7ZytPVBuwjgWm+8/v/XCYimVVZmmhBceeS0Zo8XqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDQlQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y8SIR+XwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4ADCx0yDLqhvlh+1ib9Q2070TV+ZfmK3GIe0tRZyFGhjAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCIkFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3XY/++H7LT9tjhvUxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4AFKEmvNBroFW2lNdsngtosN71SGM7tbvoGBQWL1+LxVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] {
+[8mha:////4EyvtMGV89M02LUHS2s7OH97ty5HN2JN6YQJ+v8AYDatAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] script
+[8mha:////4NVSqJ4oXGBd+NjFYv43W4cQuBRLFWn/u5wjIQ50Hb2dAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] {
+[8mha:////4N3XwC77HixvhkBNLI2Xcvpz4JQ3beAG4C7VuxgWH5WsAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgdBwr2wyNJ4gkxkBmF5NFqDyRV/MORpmx8hd//vvNe75gFQMcKFjRGewdxtaJwY82LTFR6C+eJtHRWbSEkbwRjZka0ua4YENsYEmWQyFhbbD1FB1aho3s1F2VXqEtTxzSt5eQO32DB2QymVkF/sIcYHsddST8ef4KYB4Yirrafbquhjeoo2p6wAAAAA==[0m[Pipeline] sshPublisher
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: Creating session: username [vagrant], hostname [192.168.4.12], port [22]
+SSH: Connecting session ...
+SSH: Connected
+SSH: Opening SFTP channel ...
+SSH: SFTP channel open
+SSH: Connecting SFTP channel ...
+SSH: Connected
+SSH: Remote root is not absolute, getting absolute directory from PWD
+SSH: cd [/home/vagrant]
+SSH: OK
+SSH: put [demo-0.0.1-SNAPSHOT.jar]
+SSH: OK
+SSH: Opening exec channel ...
+SSH: EXEC: channel open
+SSH: EXEC: STDOUT/STDERR from command [
+                    sudo mv demo-0.0.1-SNAPSHOT.jar /home/vagrant/project;
+                    cd project;
+                    sudo docker build -t springbootappvpl . ;
+                    docker tag springbootappvpl ms27ms27/springbootappvpl:1.0
+                    docker push ms27ms27/springbootappvpl:1.0 ] ...
+SSH: EXEC: connected
+Sending build context to Docker daemon  18.01MB
+Step 1/4 : FROM openjdk:8-jre-alpine
+8-jre-alpine: Pulling from library/openjdk
+e7c96db7181b: Already exists
+f910a506b6cb: Already exists
+b6abafe80f63: Already exists
+Digest: sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Status: Downloaded newer image for openjdk:8-jre-alpine
+ ---> f7a292bbb70c
+Step 2/4 : ADD demo-0.0.1-SNAPSHOT.jar app.jar
+ ---> b6cd4fe5a2c2
+Step 3/4 : EXPOSE 8080
+ ---> Running in 354e94fe5208
+Removing intermediate container 354e94fe5208
+ ---> cdacf2c286b6
+Step 4/4 : CMD java -jar app.jar
+ ---> Running in bf0848c17531
+Removing intermediate container bf0848c17531
+ ---> c616bd645d48
+Successfully built c616bd645d48
+Successfully tagged springbootappvpl:latest
+The push refers to repository [docker.io/ms27ms27/springbootappvpl]
+b386c021565e: Preparing
+edd61588d126: Preparing
+9b9b7f3d56a0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+9b9b7f3d56a0: Layer already exists
+edd61588d126: Layer already exists
+b386c021565e: Pushed
+1.0: digest: sha256:a50f646697bbcd24fabc727405ef5da7a96b50ac483b476932619e171d7e3ebd size: 1159
+SSH: EXEC: completed after 37,061 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 1 file(s)
+[8mha:////4OFeXovElbzvEaSCt0ldE3zGqI0I0uF10gOqnPrENAAOAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBESsexSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn/NO7/RuA7uc4wAAAAA==[0m[Pipeline] }
+[8mha:////4Pl/biMEpQOioArnawxyJrKk7Biwu+2nJTrEA4CS94RuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDqJAQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1fbTm90bi8QIfsAAAAA=[0m[Pipeline] // script
+[8mha:////4CttJWYetppH8mhr3F8t3aayiHb3gn1phM17VN95HlUXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDREGBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzertLASMAAAAA=[0m[Pipeline] }
+[8mha:////4GVHLPNCazPw9ne0U27vBs/KuVzjUhJ9uhfIf7GtGfYZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJESDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzettxg+sAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4MZyovt/4VfNC85GZXIF0rHhYodKlrI+Iy1x6H1e6eJVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDhKgQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1e7Tm+0bjSN9LMAAAAA=[0m[Pipeline] }
+[8mha:////4M6WW+1ESOOYPjykN3lM/lAEGhQMFqxl9rmxH/tY1pi6AAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHEwsaxss3QeIIIMSZkdmOyCJUn8mreQZQZK3/x57/fvOcLFinCgaIRTmNnMTVWBN+baYmBYnfxNAhHZ9EQJvJa1HqoqdXHGWtiDXOyHAoJS42Np2TRMKykU3dVeoWmPHGcvr2E3LY3eEAmJzOryF8YI6yvfZsIf56/AhhDYCiqavfpzfYNhgmSasAAAAA=[0m[Pipeline] // stage
+[8mha:////4Fzf3nWKI2DA1ofR6M+CZ2gY5T0fFqmyZvJjM/WNiJGXAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHrhBCVLRWGl5gHGOcWHfBvpBUvIiv8QcCkajYamel1TxfUKYIB4pOtBY7j8l40YfBzU2MFLtLoFG0dBaGMFGworZjTY09LlgTW1iS5VAoWFk0gZJHx7BWrb7rKmh01YnjvO0V5L65wQMyNZtZR/7CFGFzHZpE+PP8FcDUM+Ryx1BIuf1cyzdZ8yrqwwAAAA==[0m[Pipeline] stage
+[8mha:////4OfkSmLdDLm8TGaWAsk7PJWOFIn4OWJ4TbRAv0nq6h6NAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJkybGibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gNTBvaWxAAAAA==[0m[Pipeline] { (Continuous deployment)
+[8mha:////4BSchgKgz1wyRwIwOBk4mXKNgG8rd+fdWFB+B3rf8xHoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjdCBEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGqaw9JH/wU8DHlwwAAAAA==[0m[Pipeline] tool
+[8mha:////4MCEcI9Wpolm6R7uL7b6xjExvMynhEcBWKgDq54uTnpmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDqJAQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTAGhqKqdp/ebsIbLAn9o8AAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4HCJe0V2JGJSTGBnjovkr1iIRRffUC6kWVttJPUqQlUQAAAAqR+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJnUyME2vD4hPUUmuh+X9sizD5RL6a72CRxMkbLneXXL7XG8rg4UTesE5jbzEoywY3mpTYRL6/OppYRxemCAM5zRo9NdTqeq0NRQ2rshwKARuNylGwaCJsRScfsnISTXWOPm1HAblt7/CETCRylD5+y+xhdxvbQPjj/AXAPEQoOD8svufLt/wAd9KF8sQAAAA=[0m[Pipeline] withEnv
+[8mha:////4MkQt0cq8B0kdMJgKH9H73vzzKM/DS0nOPXEuvztlcW9AAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqJu6tWb77f8AIb2clTEAAAA[0m[Pipeline] {
+[8mha:////4Je2VmLdxPC8J0hgZSdv212TetOASlhUKOhf7QOehmURAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp9XS9++H7LD9P3sOjEAAAA[0m[Pipeline] script
+[8mha:////4JKXb+XT3Xfo9w6zNdjHejFKPXt6YkMBFcpXhHAnqfHiAAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BCp+NlQJ9aoCycISQhJo/dKktJOnIircQdKKzHhwbItWd/rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx3e1nP3y/5QcEixBuxAAAAA==[0m[Pipeline] {
+[8mha:////4LImftTg9c2wjkAnMzg/BMd/NN+IAhTTAY9Bfhi7LBGbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrtD3Mf+y/j1KiwwAAAAA==[0m[Pipeline] sshPublisher
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: Creating session: username [vagrant], hostname [192.168.4.12], port [22]
+SSH: Connecting session ...
+SSH: Connected
+SSH: Opening exec channel ...
+SSH: EXEC: channel open
+SSH: EXEC: STDOUT/STDERR from command [
+                    sudo docker stop $(docker ps -a -q);
+                    sudo docker rm $(docker ps -a -q);
+                    sudo docker rmi -f $(docker images -a -q);
+                    sudo docker run -d -p 8089:8080 ms27ms27/springbootappvpl:1.0; ] ...
+SSH: EXEC: connected
+4fcc9645f308
+4fcc9645f308
+Untagged: springbootapp:latest
+Untagged: ms27ms27/springbootapp:1.0
+Deleted: sha256:609c1f10a47c0a38acf40fd1dc16c08d9a6a102244f9f3b6cf1bc94d8ff4ff50
+Deleted: sha256:5d3c3e98c6757a1d538c70c71bdb7bfaeaf2a23d318cf1acc3236de8b08f2a81
+Deleted: sha256:9bc62819ca568cdb67d6e11eae8af5173e746f903c48b75214855e937de5c5af
+Untagged: springbootappvpl:latest
+Untagged: ms27ms27/springbootappvpl:1.0
+Untagged: ms27ms27/springbootappvpl@sha256:a50f646697bbcd24fabc727405ef5da7a96b50ac483b476932619e171d7e3ebd
+Deleted: sha256:c616bd645d489777fec77c760ec1f9d3deb4f684767df70fd9ecd5377fe42dbb
+Deleted: sha256:cdacf2c286b6f5ab8c6c19b1673a75eb4d9422087ecbbffbd6133e253d676de7
+Deleted: sha256:b6cd4fe5a2c2c7323d31953cec1fb8693aae622a1ddc1a214a6afc446c09b258
+Deleted: sha256:6b90766af8dd4a952813b7b63f3228def39df59194612517e795af000884fa73
+Untagged: ms27ms27/springbootapp@sha256:a6a4120d1f42f0ef623509db92cf92f6924f6d17f05a56db103f35d903681204
+Deleted: sha256:1adc5be208976ece6c09410c8c58c333372330b1c26745de8d7b3a63ed790fe0
+Deleted: sha256:1657c9ae628a0d11e612e70ac1701fb47d2cdcdbd2f29ac23240344f06aba194
+Untagged: openjdk:8-jre-alpine
+Untagged: openjdk@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Deleted: sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4
+Error: No such image: 609c1f10a47c
+Error: No such image: 5d3c3e98c675
+Error: No such image: 9bc62819ca56
+Error response from daemon: conflict: unable to delete cdacf2c286b6 (cannot be forced) - image has dependent child images
+Error: No such image: c616bd645d48
+Error: No such image: b6cd4fe5a2c2
+Unable to find image 'ms27ms27/springbootappvpl:1.0' locally
+1.0: Pulling from ms27ms27/springbootappvpl
+e7c96db7181b: Already exists
+f910a506b6cb: Already exists
+b6abafe80f63: Already exists
+145f79d402f7: Pulling fs layer
+145f79d402f7: Verifying Checksum
+145f79d402f7: Download complete
+145f79d402f7: Pull complete
+Digest: sha256:a50f646697bbcd24fabc727405ef5da7a96b50ac483b476932619e171d7e3ebd
+Status: Downloaded newer image for ms27ms27/springbootappvpl:1.0
+f8eeadd05d66c0818ce902e612dfad56b993cf2f3d891d06c1cc20703d6b6aa4
+SSH: EXEC: completed after 4,435 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+[8mha:////4CWqRwvGRQkTDhGBMZnI6wawemDWfQmz3saKjg3mzfnEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEKJBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG12x/nPnwB0slIP8AAAAA=[0m[Pipeline] }
+[8mha:////4Lvgy9BxVvzFPyJmfUmkwMnVSv136cAeZEqBViYe5hGrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoKBAqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG12x/nPnwBxVdbB8AAAAA=[0m[Pipeline] // script
+[8mha:////4Nepc1FYCFl8gqCyj8psgEq5eFYR3nqMiQUW2m4BQhMhAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRmUyME2vTxS+opdZC8x62RZj8In/Nf5BA4uQdbu65y3l/YBMDnDlYbA11jqJ22PvBzgtHDt3N84gtX1EzRfYGpRklN6ZeUXIysCbLoRCwNaQ9R0c2wU606qlKr8iWlxTm7yQgd80DXpCJ2ZxUSAtMAfb3oYlMP89fAUx9n6A4VMelqy+6FxSGwAAAAA==[0m[Pipeline] }
+[8mha:////4NdcFBWCWohW84hLcyKPDhF+zblsPt/IIqlu0Xo1kcGvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0CFEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1TN4bh08wW0TWq5wAAAAA==[0m[Pipeline] // withEnv
+[8mha:////4ONvJw3kKDNqA/iLRh9pxDdVb409RNH9m9uIkfM/RNcSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDRIOEqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIai2m4+Xe3enuOpssAAAAA=[0m[Pipeline] }
+[8mha:////4MjrTqpevcqQAeExGXjZ45Jy7izt+GOE7SwMoFaen/CbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQji4ICUaW10vACYxtjx7oLtkNS8SK+xh8IRKJii9XONvN8wSpFOFK0zBvsHCblWB8GOy82UuwugUbm6cwUYaJgWGvGlrRpFmwpG1hSlFAJWBtUgZJDm2EjvLzLOki09SnH+TsIKJ2+wQMKMZuzjPkLU4TtddCJ8Of5K4Cp7zNUfMc/zfdvu/VhhMAAAAA=[0m[Pipeline] // stage
+[8mha:////4EiRj4a8UfiXcR9Tn+Rm1WxBzuyrYoPkmtoiQoCBlqzPAAAAqB+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6IEnYxhcm26+AUVai0072H7ECa/yF/zH0RJnLzTPTe5Oc8X5DFARcGK1mDnMNZO9H6wcxMjhe7iaRQtnUVNGMkbocyoqDHHBRWxgSVJCpmElcHaU3RoGday1XddeI22OHGYt4OE1DU3eEAiZzPrwF+YAmyuQxMJf56/Aph6hrTcM2Tlbvu55m/Dc3gtwwAAAA==[0m[Pipeline] stage
+[8mha:////4CdO8X5sFdd7bYaWUFxAOsSiR89YqYonkR3rkRxzb/RUAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJMhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp9fVi8/n7LD+IlUZPEAAAA[0m[Pipeline] { (Checkout Selenium)
+[8mha:////4GHc5BxuoVcJK5UTiEdSi0ElmzL/JRR5hh4IPKAjZETdAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRg5txYm26+AW11Fpo3sO2CJNf5K/5DxJInLzDzT13Oe8PbGKAMweLraHOUdQOez/YeeHIobt5HrHlK2qmyN6gNKPkxtQrSk4G1mQ5FAK2hrTn6Mgm2IlWPVXpFdnyksL8nQTkrnnACzIxm5MKaYEpwP4+NJHp5/krgKlPUByqaulj/wXPks+1wAAAAA==[0m[Pipeline] tool
+[8mha:////4D5vGgyIDSuEQJk/pXag30NL1QQWLaDU5dKC/0E9bH01AAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+IRQ5yME2vTxS+opdZC8x62RZj8In/Nf5BA4uQdbu65y3l/YBMDnDlYbA11jqJ22PvBzgtHDt3N84gtX1EzRfYGpRklN6ZeUXIysCbLoRCwNaQ9R0c2wU606qlKr8iWlxTm7yQgd80DXpCJ2ZxUSAtMAfb3oYlMP89fAUx9guJQVUsf+y+Oo9SswAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MGsDpb5RAY5QkOPaSAYgdUVVI2MJBHN4iqAfu/+DJWlAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJIXExTqwNi09QS62F5v+xLZbJJ/LVfAcrJE7ecLm75PK93lB6BydymvUKB4NeGjbaSafEIrnhaimyni5MEnqyirUqttSpZq0tBQWrshwKDhuF0pI3qANseS8eorICdXUOLm1HDrnp7vCEjCdyEC4sZXawu02dJ/xx/gJgHgMU+7pe/PD9lh8++DlYxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4BtLt9Upf3Y/0KqCcy5WWVmkRoFGLGomBDLdvtQgadnkAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEBIMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBi1zGC8QAAAA=[0m[Pipeline] {
+[8mha:////4HwzgwJ6Tw0Erd6lTaX+fM97wibIIve6NHlJWiZMvX6WAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRAESSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LOdMwncAAAAA=[0m[Pipeline] echo
+-=- Checkout project -=-
+[8mha:////4AG0dwCYN2+09mF1zers7kEONrIAllsKCDwAc1PJ+Rv2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRIEQSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LeOIrhMAAAAA=[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/example-springboot-automation-test-selenium.git # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/example-springboot-automation-test-selenium.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/example-springboot-automation-test-selenium.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 79a12ab94c767df12c61bafc62407d17f4bfd976 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 79a12ab94c767df12c61bafc62407d17f4bfd976 # timeout=10
+ > /usr/bin/git branch -a -v --no-abbrev # timeout=10
+ > /usr/bin/git branch -D master # timeout=10
+ > /usr/bin/git checkout -b master 79a12ab94c767df12c61bafc62407d17f4bfd976 # timeout=10
+Commit message: "Update SeleniumTest.java"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+[8mha:////4K8OIcjCs2/roJhPDbBVXnHQthcgpBmkN8wCQAr4136hAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDAokCUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvV19erN7A5SV5RrAAAAA[0m[Pipeline] }
+[8mha:////4LvHAg6v9/IhvzwKRhrqwDeJDA+Aiv8o+aLjGisvrtWCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCESDqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7PkHVbJtPb3Zvtq6Vy8AAAAA=[0m[Pipeline] // withEnv
+[8mha:////4DzB8CHGZFiY1RCM4PTYbC/4ixuWbmEKj4zvqxdq3QQbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIrNbvvpqnoDpEAXisAAAAA=[0m[Pipeline] }
+[8mha:////4AxBZwnwcrXXGw+7cRiFpQnbT69NZynAH/UmT3DtTnHKAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCB2iorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIrNrvp0tX0DhntnW8AAAAA=[0m[Pipeline] // stage
+[8mha:////4OfRcMBJ1qRi7xRqzblCr/dWBOtWPYrOLTOPgM67bcpGAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KEhMUYJ9aGxS+opdZC8x62D2Hyi/w1/0GUxMk73XOTm/N8QR4DHClY0RnsHUbtxOBHuzQxUegvnibR0VlowkjeiMZMDbWmXrEhNrAmSSGTsDGoPUWHlmErO3VXhVdoixOHZTtISF17gwckcjGzCvyFOcDuOraR8Of5K4B5YEjLPUNWVtXnmr8BUK6GPsMAAAA=[0m[Pipeline] stage
+[8mha:////4HiDh+1iqvokJqg6WBfSczxRtr2c7Y8zOHkaHyKilV8bAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJCU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4BiX9eLH77f8gPJW+ESxAAAAA==[0m[Pipeline] { (Selenium Test Job)
+[8mha:////4MaydoE+zVa9YbJTaZx3gjM30iOkfNn34j1QxX//PwQ0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJKBBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNVuf5j72H8BhoK4IMAAAAA=[0m[Pipeline] tool
+[8mha:////4Djm1X4r+mSieQNCPmQXE6M8Z4WuSsMn2KF3GRzS0IU9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJBAFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4Lx7OjOcAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4OIIOKui5P4s3Xq43WsmLFPd6qmqNI3B5AeF3/i6PUXtAAAAqR+LCAAAAAAAAP9tjUEKwjAURH9bunDr0kOkCAqCdOU2dOMJYhJj0vB/TVLblSfyat7B2oIrZzHMDAzv9YYyBqgpGOY0thajtKzzvZkSGyi0V08Dc3RhkjCS16zRQ0NKn5baUNKwKMuh4LDSKD1FiybBmjvxEJUXaKpzCtN25JBbdYcnZHwiJxHSXMYAm1uvIuGP8xcAY5eg2O72sx++3/IDeATaNcQAAAA=[0m[Pipeline] withEnv
+[8mha:////4E+Qg59dABKGcettIxTFwoUnKZLgdZQDX26mqyME7eosAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpkBhAqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBM9YpYMQAAAA=[0m[Pipeline] {
+[8mha:////4ErBQq72pZZjQvkt/tIVGfnPYuvlmh5ila0uBgQaeZeeAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEhQIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2Car1Zvfp7ap7A3hajyDAAAAA[0m[Pipeline] build
+Scheduling project: [8mha:////4JLNbnFB+5BMxRVnfPHmRCo9lAYA8sIY4gCgX+ZdFktQAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH0DM92Covys1BLdstSizLRKfQDJYshjywAAAA==[0m06-projet-verify
+Starting building: [8mha:////4Ggf14oaLp0JbdfBUndLwqjqVkGTE2moE44FEGQpYozkAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgZJ/az8JH0DM92Covys1BLdstSizLRKfWMjfQCzMUMZzgAAAA==[0m06-projet-verify #32
+[8mha:////4NRtnPzmTKcLRVeZ45DyvNK/yUgrdZR0WJ6alGpZYufBAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAgREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZtt8erN7A34lwdjAAAAA[0m[Pipeline] }
+[8mha:////4HUZ8zEesgdI4WV8C/WxQIc6K3v7cUfbO1QtsO/TVCFyAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEEhIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3605vdG3UPLp7AAAAA[0m[Pipeline] // withEnv
+[8mha:////4Oi2CkTLqcie0vgN3XJCvNXzA16Y0RUoJuezpW5wUXEXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBKkQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBsqu2nd9UbfHjoRsAAAAA=[0m[Pipeline] }
+[8mha:////4FivxtrwkNjl+uVozRmy+1GVnfXQD37V2IILhsxevBr/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJFMhqrRWGl5gbGOcWHfBdkgqXsTX+AOGSFRssdrZZp4vWMUARwqWdQZ7h1E5NvjR5sUmCv3F08Q6OjNFGMkb1pqpJW2aBVtKBpYUJVQC1gaVp+jQJtiITt5l7SXa+pRC/g4CSqdv8IBCZHOSIX1hDrC9jjoS/jx/BTAPQ4Jqt+ef5vwNZHZI9MAAAAA=[0m[Pipeline] // stage
+[8mha:////4EzGCAP+EEzxqOBAvKD32zwwzPGCOpGo0JiE453+hnIvAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGGgsJxrGgzNJ4gJjEGMruYLELlibyad5CRGSt/9d9r3usNmxThRNGJzmLvMWkvhjC65YmJYn8NNImOLkITJgpWtHZqydhmxZbYwrosh0LC1qIOlDw6hp3s1EOVQaErzxwXd5SQe3OHJ2RyKbOK/IU5wv42mkT46/wNwDwMDEVV1wx5dfgAK4CGJ78AAAA=[0m[Pipeline] }
+[8mha:////4JykFvwhyJul8mOmXhIoEas7jGyok2upnU/Vae9j6ENjAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEQWNimFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBTVbs+QV4cPE8IV1r8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4JUJMNN+k3bBOJPCzJLps9dWvd4qsr+H/zKFdPpEgpsmAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFIgCUdFaaXiBiY1xYt0Z+4JT8SK+xh+IiETFVjvTzOsNqxThSNGK3uDgMHVOBD/a+YlMcbh6yqKni+gIE3kjWpNb0ua0YEtsYFlRQiVhbbDzlBxaho3s1UPVXqGtzxxnd5BQOn2HJxRyLrOK/IUpwvY26kT46/wNwBQCQ9Xs9gxl03wAEqmVZL8AAAA=[0m[Pipeline] }
+[8mha:////4FfKlSTUiLZ561ZkSZtbIV7lAa1eLZady3iDeprc46/VAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LIYGJimFwbFr+g0loLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYWydGPxo0xMThf7qaRIdXURLGMkb0ZipIW1OCzbEBpZlORQS1gZbT9GhZdjITj1U6RXa8swhuaOE3Ok7PCGTqcwq8BfmANvbqCPhr/M3APMwMBTV/sCQV7sPUSvE4r8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4MO8HnXlLNFP4BsxnFUBEYf17rm+fnydSDyKda9kUUlJAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjJCgQoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmt2cQ2w8juxwVvgAAAA==[0m[Pipeline] }
+[8mha:////4OKb17s1hhmXLVHC1O2T/XntbOiWSwcg9Varud1NPEh/AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDQqJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodzuNwxi9wFfPvwAvgAAAA==[0m[Pipeline] // node
+[8mha:////4HppRTuhNbEefKadGB8S3cLgQ8sioEAYN8DzpkBUa0ELAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjUNAgKlorDS8wsTFOrLtgX3AqXsTX+AMRkajYameaeb1hlSIcKTrZWew9ptbLIYxufjJT7K+BsuzoIlvCRMHKxuaGjD0t2BBbWCYKKBWsLbaBkkfHsFGdfugqaHTVmePsDgoKb+7wBKHmMuvIX5gibG+jSYS/zt8ATMPAUNb7mkHsPnknm0q+AAAA[0m[Pipeline] End of Pipeline
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

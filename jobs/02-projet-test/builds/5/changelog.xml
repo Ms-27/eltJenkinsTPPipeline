@@ -1,0 +1,9 @@
+commit 57a9a0e4ae57cda68819c6c2e26d8d6b0ad7ae94
+tree aeac630966eac63f31a9710b2838394895fae1ad
+parent 07d42433b0dfa3b17dedb78ac3a70010d5f47a03
+author Ms-27 <ms@juliver.com> 2020-09-22 11:14:54 +0200
+committer GitHub <noreply@github.com> 2020-09-22 11:14:54 +0200
+
+    Create StandardAssertionsTest.java
+
+:000000 100644 0000000000000000000000000000000000000000 7932febae736bf1f6640009d9fe8073f46bb885c A	src/test/java/com/reytech/demo/StandardAssertionsTest.java

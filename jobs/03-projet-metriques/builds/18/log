@@ -1,0 +1,213 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/03-projet-metrique
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/Spring-Boot-Hello-World-Example # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4f87f1a767a71bf3906191c87a2a31c9918360a8 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 4f87f1a767a71bf3906191c87a2a31c9918360a8 # timeout=10
+Commit message: "Update pom.xml"
+ > /usr/bin/git rev-list --no-walk 4f87f1a767a71bf3906191c87a2a31c9918360a8 # timeout=10
+[Checks API] No suitable checks publisher found.
+[03-projet-metrique] $ /usr/share/maven/bin/mvn clean test pmd:pmd checkstyle:checkstyle findbugs:findbugs
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/03-projet-metrique/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.7.7.201606060606:prepare-agent[m [1m(default)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.7.201606060606/org.jacoco.agent-0.7.7.201606060606-runtime.jar=destfile=/var/lib/jenkins/workspace/03-projet-metrique/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /var/lib/jenkins/workspace/03-projet-metrique/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/03-projet-metrique/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /var/lib/jenkins/workspace/03-projet-metrique/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.reytech.demo.[1mDemoApplicationTests[m
+15:38:38.267 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:38:38.322 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:38:38.377 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.reytech.demo.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:38:38.402 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.DemoApplicationTests], using SpringBootContextLoader
+15:38:38.412 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTests-context.xml] does not exist
+15:38:38.413 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.reytech.demo.DemoApplicationTests]: class path resource [com/reytech/demo/DemoApplicationTestsContext.groovy] does not exist
+15:38:38.413 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.reytech.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:38:38.415 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.reytech.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:38:38.486 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.reytech.demo.DemoApplicationTests]
+15:38:38.592 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/03-projet-metrique/target/classes/com/reytech/demo/DemoApplication.class]
+15:38:38.593 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.DemoApplicationTests
+15:38:38.778 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.reytech.demo.DemoApplicationTests]: using defaults.
+15:38:38.779 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:38:38.796 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+15:38:38.797 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+15:38:38.800 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1a536164, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1657b017, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@368424db, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@44864536, org.springframework.test.context.support.DirtiesContextTestExecutionListener@455f4483, org.springframework.test.context.event.EventPublishingTestExecutionListener@6e239337, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7996d0d4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@fcf9525, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@300bb303, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4243341e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d1c5cf2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7e0986c9]
+15:38:38.806 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@619c3546 testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29090809 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.reytech.demo.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67e13bd0, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@618ff5c2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@648d0e6d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3722c145, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+BeforeAll
+15:38:38.901 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-09-22 15:38:39.604  INFO 5308 --- [           main] com.reytech.demo.DemoApplicationTests    : Starting DemoApplicationTests on jenkinsafcepf with PID 5308 (started by jenkins in /var/lib/jenkins/workspace/03-projet-metrique)
+2020-09-22 15:38:39.607  INFO 5308 --- [           main] com.reytech.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2020-09-22 15:38:43.209  INFO 5308 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-22 15:38:44.294  INFO 5308 --- [           main] com.reytech.demo.DemoApplicationTests    : Started DemoApplicationTests in 5.376 seconds (JVM running for 7.676)
+BeforeEach
+TEST 2
+AfterEach
+BeforeEach
+TEST 1
+AfterEach
+AfterAll
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.764 s - in com.reytech.demo.[1mDemoApplicationTests[m
+[[1;34mINFO[m] Running com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-22 15:38:44.896  INFO 5308 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.reytech.demo.StandardAssertionsTest], using SpringBootContextLoader
+2020-09-22 15:38:44.902  INFO 5308 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.reytech.demo.StandardAssertionsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-22 15:38:44.911  INFO 5308 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.reytech.demo.StandardAssertionsTest]: StandardAssertionsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-22 15:38:44.920  INFO 5308 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.reytech.demo.DemoApplication for test class com.reytech.demo.StandardAssertionsTest
+2020-09-22 15:38:44.927  INFO 5308 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-22 15:38:44.934  INFO 5308 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35b2a73e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@885ac1a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65dfb9ed, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7550b03f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@557b62fc, org.springframework.test.context.event.EventPublishingTestExecutionListener@703be135, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68332e0e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1812ba7f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16704703, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39ed2eb1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@485f34dc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4593aeea]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 s - in com.reytech.demo.[1mStandardAssertionsTest[m
+2020-09-22 15:38:45.143  INFO 5308 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 4, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.13.0:pmd[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:checkstyle[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] There are 14 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfindbugs-maven-plugin:3.0.5:findbugs[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Fork Value is true
+[[1;34mINFO[m] Done FindBugs Analysis....
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.819 s
+[[1;34mINFO[m] Finished at: 2020-09-22T15:38:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[JaCoCo plugin] Collecting JaCoCo coverage data...
+[JaCoCo plugin] target/*.exec;target/classes;src/main/java; locations are configured
+[JaCoCo plugin] Number of found exec files for pattern target/*.exec: 1
+[JaCoCo plugin] Saving matched execfiles:  /var/lib/jenkins/workspace/03-projet-metrique/target/jacoco.exec
+[JaCoCo plugin] Saving matched class directories for class-pattern: target/classes: 
+[JaCoCo plugin]  - /var/lib/jenkins/workspace/03-projet-metrique/target/classes 2 files
+[JaCoCo plugin] Saving matched source directories for source-pattern: src/main/java: 
+[JaCoCo plugin] Source Inclusions: **/*.java,**/*.groovy,**/*.kt,**/*.kts
+[JaCoCo plugin] Source Exclusions: 
+[JaCoCo plugin] - /var/lib/jenkins/workspace/03-projet-metrique/src/main/java 2 files
+[JaCoCo plugin] Loading inclusions files..
+[JaCoCo plugin] inclusions: []
+[JaCoCo plugin] exclusions: []
+[JaCoCo plugin] Thresholds: JacocoHealthReportThresholds [minClass=0, maxClass=0, minMethod=0, maxMethod=0, minLine=0, maxLine=0, minBranch=0, maxBranch=0, minInstruction=0, maxInstruction=0, minComplexity=0, maxComplexity=0]
+[JaCoCo plugin] Publishing the results..
+[JaCoCo plugin] Loading packages..
+[JaCoCo plugin] Done.
+[JaCoCo plugin] Overall coverage: class: 100, method: 40, line: 38, branch: 100, instruction: 39, complexity: 40
+[PMD] Using default pattern '**/pmd.xml' since user defined pattern is not set
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/pmd.xml'
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] Creating SCM miner to obtain statistics for affected repository files
+[PMD] Resolving file names for all issues in source directory '/var/lib/jenkins/workspace/03-projet-metrique'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/03-projet-metrique/builds/18/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Using reference build '03-projet-metrique #17' to compute new, fixed, and outstanding issues
+[PMD] Issues delta (vs. reference build): outstanding: 1, new: 0, fixed: 0
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to run '03-projet-metrique #18'.
+[Checks API] No suitable checks publisher found.
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/checkstyle-result.xml
+[CheckStyle] -> found 14 issues (skipped 0 duplicates)
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] Creating SCM miner to obtain statistics for affected repository files
+[CheckStyle] Resolving file names for all issues in source directory '/var/lib/jenkins/workspace/03-projet-metrique'
+[CheckStyle] -> resolved paths in source directory (2 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 14 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 2 affected files
+[CheckStyle] No filter has been set, publishing all 14 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 14 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/03-projet-metrique/builds/18/files-with-issues'
+[CheckStyle] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Using reference build '03-projet-metrique #17' to compute new, fixed, and outstanding issues
+[CheckStyle] Issues delta (vs. reference build): outstanding: 14, new: 0, fixed: 0
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 14 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to run '03-projet-metrique #18'.
+[Checks API] No suitable checks publisher found.
+[FindBugs] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/target/findbugsXml.xml'
+[FindBugs] -> found 1 file
+[FindBugs] Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/findbugsXml.xml
+[FindBugs] -> found 0 issues (skipped 0 duplicates)
+[FindBugs] Skipping post processing
+[FindBugs] No filter has been set, publishing all 0 issues
+[FindBugs] Using reference build '03-projet-metrique #17' to compute new, fixed, and outstanding issues
+[FindBugs] Issues delta (vs. reference build): outstanding: 0, new: 0, fixed: 0
+[FindBugs] No quality gates have been set - skipping
+[FindBugs] Health report is disabled - skipping
+[FindBugs] Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)
+[FindBugs] Attaching ResultAction with ID 'findbugs' to run '03-projet-metrique #18'.
+[Checks API] No suitable checks publisher found.
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4GKk5c/E0T4Mv+qPhIxxrU1xn2UuPEvuwbalfIBdl+lJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH0DE92Covys1BLdtMw8fQC0yvLpyAAAAA==[0m04-projet-fin
+Finished: SUCCESS

@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@9.0.1">
+  <elements class="linked-hash-set">
+    <issue>
+      <category>Best Practices</category>
+      <type>UnusedPrivateField</type>
+      <severity>NORMAL</severity>
+      <lineStart>8</lineStart>
+      <lineEnd>8</lineEnd>
+      <columnStart>24</columnStart>
+      <columnEnd>26</columnEnd>
+      <lineRanges/>
+      <id>deaa65f3-8ee4-4b0d-b094-abb283a874e2</id>
+      <reference>12</reference>
+      <origin>pmd</origin>
+      <moduleName>demo</moduleName>
+      <packageName>com.reytech.demo</packageName>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName>src/main/java/com/reytech/demo/DemoApplication.java</fileName>
+      <message>Avoid unused private fields such as &apos;nom&apos;.</message>
+      <description></description>
+      <fingerprint>09B6EA0E09BE695573BBF34A7E8CFDE6</fingerprint>
+    </issue>
+  </elements>
+  <infoMessages/>
+  <errorMessages/>
+  <countersByKey/>
+  <fileNames/>
+  <namesByOrigin/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

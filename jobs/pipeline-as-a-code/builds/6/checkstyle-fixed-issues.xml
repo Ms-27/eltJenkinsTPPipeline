@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@9.0.1">
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/pipeline-as-a-code&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+    <string>-&gt; found 1 file</string>
+    <string>Successfully parsed file /var/lib/jenkins/workspace/pipeline-as-a-code/target/checkstyle-result.xml</string>
+    <string>-&gt; found 14 issues (skipped 0 duplicates)</string>
+    <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+    <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+    <string>Creating SCM miner to obtain statistics for affected repository files</string>
+    <string>Resolving file names for all issues in source directory &apos;/var/lib/jenkins/workspace/pipeline-as-a-code&apos;</string>
+    <string>-&gt; resolved paths in source directory (2 found, 0 not found)</string>
+    <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+    <string>-&gt; resolved module names for 14 issues</string>
+    <string>Resolving package names (or namespaces) by parsing the affected files</string>
+    <string>-&gt; resolved package names of 2 affected files</string>
+    <string>No filter has been set, publishing all 14 issues</string>
+    <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+    <string>-&gt; created fingerprints for 14 issues (skipped 0 issues)</string>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/pipeline-as-a-code/builds/5/files-with-issues&apos;</string>
+    <string>-&gt; 2 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+    <string>No valid reference build found that meets the criteria (NO_JOB_FAILURE - SUCCESSFUL_QUALITY_GATE)</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 14 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;checkstyle&apos; to run &apos;pipeline-as-a-code #5&apos;.</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <fileNames/>
+  <namesByOrigin>
+    <entry>
+      <string>checkstyle</string>
+      <string></string>
+    </entry>
+  </namesByOrigin>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

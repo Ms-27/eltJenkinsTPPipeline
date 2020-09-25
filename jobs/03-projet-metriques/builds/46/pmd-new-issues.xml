@@ -1,0 +1,23 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@9.0.1">
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/03-projet-metriques&apos; that match the pattern &apos;**/pmd.xml&apos;</string>
+    <string>-&gt; found 1 file</string>
+    <string>Successfully parsed file /var/lib/jenkins/workspace/03-projet-metriques/target/pmd.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Skipping post processing</string>
+    <string>No filter has been set, publishing all 0 issues</string>
+    <string>Using reference build &apos;03-projet-metriques #45&apos; to compute new, fixed, and outstanding issues</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <fileNames/>
+  <namesByOrigin>
+    <entry>
+      <string>pmd</string>
+      <string></string>
+    </entry>
+  </namesByOrigin>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

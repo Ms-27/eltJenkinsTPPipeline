@@ -1,0 +1,156 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@9.0.1">
+  <elements class="linked-hash-set">
+    <issue>
+      <category>Checks</category>
+      <type>FinalParametersCheck</type>
+      <severity>ERROR</severity>
+      <lineStart>10</lineStart>
+      <lineEnd>10</lineEnd>
+      <columnStart>50</columnStart>
+      <columnEnd>50</columnEnd>
+      <lineRanges/>
+      <id>11773471-b9ac-4413-ac6a-4424092c20a4</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName>com.reytech.demo</packageName>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName>src/main/java/com/reytech/demo/DemoApplication.java</fileName>
+      <message>Parameter object should be final.</message>
+      <description></description>
+      <fingerprint>38EC6FAA0C095D9E4B758E7E34D97314</fingerprint>
+    </issue>
+    <issue>
+      <category>Whitespace</category>
+      <type>WhitespaceAroundCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>13</lineStart>
+      <lineEnd>13</lineEnd>
+      <columnStart>13</columnStart>
+      <columnEnd>13</columnEnd>
+      <lineRanges/>
+      <id>e538c5b1-bec4-43cc-beb9-b3754fc5bf3d</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>&apos;if&apos; is not followed by whitespace.</message>
+      <description></description>
+      <fingerprint>C6891C1F23D0EBD5773F62D055C82419</fingerprint>
+    </issue>
+    <issue>
+      <category>Regexp</category>
+      <type>RegexpSinglelineCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>14</lineStart>
+      <lineEnd>14</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>9e63d9d5-af65-4ca6-8b1e-978d2f602302</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Line has trailing spaces.</message>
+      <description></description>
+      <fingerprint>7B764B6B4976CAFDA41A1C7B6B36D6C0</fingerprint>
+    </issue>
+    <issue>
+      <category>Regexp</category>
+      <type>RegexpSinglelineCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>17</lineStart>
+      <lineEnd>17</lineEnd>
+      <columnStart>0</columnStart>
+      <columnEnd>0</columnEnd>
+      <lineRanges/>
+      <id>6c567b7f-cfd9-462f-a897-a6e63e8d711e</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Line has trailing spaces.</message>
+      <description></description>
+      <fingerprint>1C80DEED795224FDFF1EDD90D3AD5FF4</fingerprint>
+    </issue>
+    <issue>
+      <category>Javadoc</category>
+      <type>MissingJavadocMethodCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>18</lineStart>
+      <lineEnd>18</lineEnd>
+      <columnStart>9</columnStart>
+      <columnEnd>9</columnEnd>
+      <lineRanges/>
+      <id>6f3b453b-ddcc-4fc7-9004-b042574676e2</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Missing a Javadoc comment.</message>
+      <description></description>
+      <fingerprint>34832467D41777EFCAD4F029F1A25B00</fingerprint>
+    </issue>
+    <issue>
+      <category>Checks</category>
+      <type>FinalParametersCheck</type>
+      <severity reference="../../issue/severity"/>
+      <lineStart>18</lineStart>
+      <lineEnd>18</lineEnd>
+      <columnStart>33</columnStart>
+      <columnEnd>33</columnEnd>
+      <lineRanges/>
+      <id>dff30a89-9d79-47f9-9571-eece241fffbe</id>
+      <reference>24</reference>
+      <origin>checkstyle</origin>
+      <moduleName>demo</moduleName>
+      <packageName reference="../../issue/packageName"/>
+      <pathName>/var/lib/jenkins/workspace/03-projet-metrique</pathName>
+      <fileName reference="../../issue/fileName"/>
+      <message>Parameter args should be final.</message>
+      <description></description>
+      <fingerprint>34832467D41777EFCAD4F029F1A25B00</fingerprint>
+    </issue>
+  </elements>
+  <infoMessages>
+    <string>Searching for all files in &apos;/var/lib/jenkins/workspace/03-projet-metrique&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+    <string>-&gt; found 1 file</string>
+    <string>Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/checkstyle-result.xml</string>
+    <string>-&gt; found 19 issues (skipped 0 duplicates)</string>
+    <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+    <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+    <string>Creating SCM miner to obtain statistics for affected repository files</string>
+    <string>Resolving file names for all issues in source directory &apos;/var/lib/jenkins/workspace/03-projet-metrique&apos;</string>
+    <string>-&gt; resolved paths in source directory (2 found, 0 not found)</string>
+    <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+    <string>-&gt; resolved module names for 19 issues</string>
+    <string>Resolving package names (or namespaces) by parsing the affected files</string>
+    <string>-&gt; resolved package names of 2 affected files</string>
+    <string>No filter has been set, publishing all 19 issues</string>
+    <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+    <string>-&gt; created fingerprints for 19 issues (skipped 0 issues)</string>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/03-projet-metrique/builds/24/files-with-issues&apos;</string>
+    <string>-&gt; 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+    <string>Using reference build &apos;03-projet-metrique #22&apos; to compute new, fixed, and outstanding issues</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <fileNames/>
+  <namesByOrigin>
+    <entry>
+      <string>checkstyle</string>
+      <string></string>
+    </entry>
+  </namesByOrigin>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

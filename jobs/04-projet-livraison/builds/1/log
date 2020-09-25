@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4EN+Z9q3fcwzTRg97XruJZZ+4cBzcY002PFlCCd1LNLCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2Covys1BLdktTiEn0A8hpuBcYAAAA=[0mprojet-test" build number [8mha:////4EprfiWQuv4KcO1ltjE6Pjwq7vfxBOk939GWPLdrm0G/AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2Covys1BLdktTiEn1DAwC0hbEryAAAAA==[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4IGeAxFD7WjduR9ATsprSgvtZM/ioVyBBqs+4PrzuBHhAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2Covys1BLdgsTk7MT0VH0AQcxNIskAAAA=[0mprojet-package" build number [8mha:////4AJXmOiGDgpo/sxtYemYOV0ogkgKMswoLy7yX/RTfRD3AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2Covys1BLdgsTk7MT0VH1DIwDU/simywAAAA==[0m12
+ originally caused by:
+  Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/projet-fin
+[projet-fin] $ /bin/sh -xe /tmp/jenkins4149788900146882671.sh
++ echo Je déploie!
+Je déploie!
+Finished: SUCCESS

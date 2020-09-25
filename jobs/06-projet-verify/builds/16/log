@@ -1,0 +1,47 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/06-projet-verify
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/example-springboot-automation-test-selenium # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/example-springboot-automation-test-selenium
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/example-springboot-automation-test-selenium +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 79a12ab94c767df12c61bafc62407d17f4bfd976 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 79a12ab94c767df12c61bafc62407d17f4bfd976 # timeout=10
+Commit message: "Update SeleniumTest.java"
+ > /usr/bin/git rev-list --no-walk 79a12ab94c767df12c61bafc62407d17f4bfd976 # timeout=10
+[Checks API] No suitable checks publisher found.
+[06-projet-verify] $ /bin/sh -xe /tmp/jenkins6801560838781167634.sh
++ chmod +x driver/chromedriver
++ cp driver/chromedriver driver/chromedriver.exe
++ mvn clean verify surefire:report-only
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.622 s
+[[1;34mINFO[m] Finished at: 2020-09-25T12:34:28Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Could not find goal 'report-only' in plugin org.apache.maven.plugins:maven-surefire-plugin:2.22.0 among available goals help, test -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoNotFoundException
+Build step 'Execute shell' marked build as failure
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/lib/jenkins/workspace/06-projet-verify/target/site to /var/lib/jenkins/jobs/06-projet-verify/htmlreports/HTML_20Report
+ERROR: Specified HTML directory '/var/lib/jenkins/workspace/06-projet-verify/target/site' does not exist.
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: Test reports were found but none of them are new. Did leafNodes run? 
+For example, /var/lib/jenkins/workspace/06-projet-verify/target/surefire-reports/TEST-me.arndc.example.testing.automation.SeleniumTest.xml is 4 min 20 sec old
+
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE

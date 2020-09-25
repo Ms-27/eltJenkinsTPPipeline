@@ -1,0 +1,12 @@
+Started on Sep 22, 2020 1:20:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision d97d79ccae588f360a9aebf3fea2b5367503663b (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git ls-remote -h -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git # timeout=10
+Found 1 remote heads on https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git
+[poll] Latest remote head revision on refs/heads/master is: 4f87f1a767a71bf3906191c87a2a31c9918360a8
+Done. Took 0.51 sec
+Changes found

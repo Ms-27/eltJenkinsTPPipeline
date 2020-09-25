@@ -1,0 +1,127 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/03-projet-metrique
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/Ms-27/Spring-Boot-Hello-World-Example # timeout=10
+Fetching upstream changes from https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f1d89dc96d0fffb2d9ca33c53165c8a5da33e90f (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f f1d89dc96d0fffb2d9ca33c53165c8a5da33e90f # timeout=10
+Commit message: "Update DemoApplication.java"
+ > /usr/bin/git rev-list --no-walk f1d89dc96d0fffb2d9ca33c53165c8a5da33e90f # timeout=10
+[Checks API] No suitable checks publisher found.
+[03-projet-metrique] $ /usr/share/maven/bin/mvn clean validate findbugs:findbugs pmd:pmd checkstyle:checkstyle
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.reytech:demo[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding demo 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] Deleting /var/lib/jenkins/workspace/03-projet-metrique/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfindbugs-maven-plugin:3.0.5:findbugs[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-pmd-plugin:3.13.0:pmd[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-checkstyle-plugin:3.1.1:checkstyle[m [1m(default-cli)[m @ [36mdemo[0;1m ---[m
+[[1;34mINFO[m] There are 19 errors reported by Checkstyle 8.29 with sun_checks.xml ruleset.
+[[1;33mWARNING[m] Unable to locate Source XRef to link to - DISABLED
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.931 s
+[[1;34mINFO[m] Finished at: 2020-09-23T07:42:21Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[JaCoCo plugin] Collecting JaCoCo coverage data...
+[JaCoCo plugin] target/*.exec;target/classes;src/main/java; locations are configured
+[JaCoCo plugin] Number of found exec files for pattern target/*.exec: 0
+[JaCoCo plugin] Saving matched execfiles:  
+[JaCoCo plugin] Saving matched class directories for class-pattern: target/classes: 
+[JaCoCo plugin] Saving matched source directories for source-pattern: src/main/java: 
+[JaCoCo plugin] Source Inclusions: **/*.java,**/*.groovy,**/*.kt,**/*.kts
+[JaCoCo plugin] Source Exclusions: 
+[JaCoCo plugin] - /var/lib/jenkins/workspace/03-projet-metrique/src/main/java 2 files
+[JaCoCo plugin] Loading inclusions files..
+[JaCoCo plugin] inclusions: []
+[JaCoCo plugin] exclusions: []
+[JaCoCo plugin] Thresholds: JacocoHealthReportThresholds [minClass=0, maxClass=0, minMethod=0, maxMethod=0, minLine=0, maxLine=0, minBranch=0, maxBranch=0, minInstruction=0, maxInstruction=0, minComplexity=0, maxComplexity=0]
+[JaCoCo plugin] Publishing the results..
+[JaCoCo plugin] Loading packages..
+[JaCoCo plugin] Done.
+[JaCoCo plugin] Overall coverage: class: 100, method: 100, line: 100, branch: 100, instruction: 100, complexity: 100
+[PMD] Using default pattern '**/pmd.xml' since user defined pattern is not set
+[PMD] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/pmd.xml'
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] Creating SCM miner to obtain statistics for affected repository files
+[PMD] Resolving file names for all issues in source directory '/var/lib/jenkins/workspace/03-projet-metrique'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/03-projet-metrique/builds/24/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Using reference build '03-projet-metrique #22' to compute new, fixed, and outstanding issues
+[PMD] Issues delta (vs. reference build): outstanding: 1, new: 0, fixed: 0
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to run '03-projet-metrique #24'.
+[Checks API] No suitable checks publisher found.
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /var/lib/jenkins/workspace/03-projet-metrique/target/checkstyle-result.xml
+[CheckStyle] -> found 19 issues (skipped 0 duplicates)
+[CheckStyle] Post processing issues on 'Master' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] Creating SCM miner to obtain statistics for affected repository files
+[CheckStyle] Resolving file names for all issues in source directory '/var/lib/jenkins/workspace/03-projet-metrique'
+[CheckStyle] -> resolved paths in source directory (2 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 19 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 2 affected files
+[CheckStyle] No filter has been set, publishing all 19 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 19 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/03-projet-metrique/builds/24/files-with-issues'
+[CheckStyle] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Using reference build '03-projet-metrique #22' to compute new, fixed, and outstanding issues
+[CheckStyle] Issues delta (vs. reference build): outstanding: 13, new: 6, fixed: 1
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 19 issues (found 6 new issues, fixed 1 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to run '03-projet-metrique #24'.
+[Checks API] No suitable checks publisher found.
+[FindBugs] Using default pattern '**/findbugsXml.xml' since user defined pattern is not set
+[FindBugs] [-ERROR-] No files found for pattern '**/findbugsXml.xml'. Configuration error?
+[FindBugs] Searching for all files in '/var/lib/jenkins/workspace/03-projet-metrique' that match the pattern '**/findbugsXml.xml'
+[FindBugs] Skipping post processing
+[FindBugs] No filter has been set, publishing all 0 issues
+[FindBugs] Using reference build '03-projet-metrique #22' to compute new, fixed, and outstanding issues
+[FindBugs] Issues delta (vs. reference build): outstanding: 0, new: 0, fixed: 0
+[FindBugs] No quality gates have been set - skipping
+[FindBugs] Health report is disabled - skipping
+[FindBugs] Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)
+[FindBugs] Attaching ResultAction with ID 'findbugs' to run '03-projet-metrique #24'.
+[Checks API] No suitable checks publisher found.
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4GKk5c/E0T4Mv+qPhIxxrU1xn2UuPEvuwbalfIBdl+lJAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH0DE92Covys1BLdtMw8fQC0yvLpyAAAAA==[0m04-projet-fin
+Finished: SUCCESS

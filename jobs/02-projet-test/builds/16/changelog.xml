@@ -1,0 +1,20 @@
+commit 4f87f1a767a71bf3906191c87a2a31c9918360a8
+tree 1dc5da354071cbf4698bc5e223b7cd076dc2a3ca
+parent 79be8879dc28c17396559ac5d65965000e9b4f6b
+author Ms-27 <ms@juliver.com> 2020-09-22 15:19:58 +0200
+committer GitHub <noreply@github.com> 2020-09-22 15:19:58 +0200
+
+    Update pom.xml
+
+:100644 100644 3417d314960f6f661cca2991746bdac52618fa54 f59fe10757e2d589d9794af250247a9202d98ed0 M	pom.xml
+commit 79be8879dc28c17396559ac5d65965000e9b4f6b
+tree f665aeca1685bd5d878e5137e01cbb70c3ca22ef
+parent d97d79ccae588f360a9aebf3fea2b5367503663b
+author Ms-27 <ms@juliver.com> 2020-09-22 15:19:30 +0200
+committer GitHub <noreply@github.com> 2020-09-22 15:19:30 +0200
+
+    Update pom.xml
+    
+    maj pom
+
+:100644 100644 e9979d71fc7dcd3b37feec7b8b5f6beb9ee32f95 3417d314960f6f661cca2991746bdac52618fa54 M	pom.xml

@@ -1,0 +1,101 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+"docker stop" requires at least 1 argument.
+See 'docker stop --help'.
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+Stop one or more running containers
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers
+Untagged: ms27ms27/springbootapp@sha256:9e2edf24c8bf3d5c5da4500937a97f8185bb1ca64d3eb84e22d88a43d80f666c
+Deleted: sha256:abb690f27a1bc42fea7ccffb43a5dc1c81e0f77b9d9cc7db787803a31ce81e86
+Deleted: sha256:a70aef711bf78fe1b3a3ead7d2de8b88f2161f98721e55db0bed9f92c364b95d
+Deleted: sha256:939b3052ddceda846232782d6619e4e526f22936d0354d3e9b8510123a87cf90
+Deleted: sha256:99fe7ddd3361f70a3a3f2d853b00bac0a7dbfaab8b3fa9b3f829c302a0c072a9
+Untagged: ms27ms27/springbootapp@sha256:ab1b73a45e4a8e3191362703c28bbc3d71750c64c895d2cb030cb6cea0444d97
+Deleted: sha256:0077559c872a370567ff4187367f1b30cb6d855cce3d69d75a4146c918319ee7
+Deleted: sha256:78be0f2e63d281dba552077eab7efce30907b79aa9928c40005b5ba893b424e8
+Deleted: sha256:e37b892cc0cef2a0c994f136aebc5745b3847e25cc6de95c3bbee0072c923cf8
+Deleted: sha256:1b1f85ed58b14254959cd30872dfa0fd755be01729148f5533d83a08cfbbe972
+Untagged: ms27ms27/springbootapp@sha256:077aaf8216c5c52f01b3206f0baee7a8fdf0c47427fa091a9a0cdae38a02ef7e
+Deleted: sha256:d90913d5e86ed2151d23bc33411e95991cf707120b5fcf1119f8ae4ea804268d
+Deleted: sha256:d4919810b5477aa76a1e32276bb4eeec4aa5cd296927d47ed94b6452302168b1
+Deleted: sha256:9137d8f90bf497edb7e6cfcec7659015c6071c5c6ed2490c58e6962b8d0b65da
+Deleted: sha256:1ba52c9f7af5d91bb9a2211f0a28c717bcd2a7e5ab68068fbf6cb8f8a474a68c
+Untagged: ms27ms27/springbootapp@sha256:8ba0d4e63d52e900441f6a3ac1e85d89c75d920caa814c4832e1b00aeeee4cf1
+Deleted: sha256:1db4cd6e98750fc5e29169fee39a110f2c3c3f8a9801fa05c18be27ea5223270
+Deleted: sha256:77a0bea6c7403e8aa07fcb80988ee92c0f6e294263369daf899d5c5adc35bf27
+Deleted: sha256:d7a0d64acb35c3c1cbf27f353fba7a2f40476768f7c8692c67d5e11e73fc5799
+Untagged: ms27ms27/springbootapp@sha256:6d57ec0080121f2bfa6d6687a8a1f9135ffbe0b2b6025ccb53144aa4ade4b9d4
+Deleted: sha256:ea74ec6a91d78a8f18801ab3f7ee0fcb6c94ed74a75581a5cebe56b248da9be6
+Deleted: sha256:3b9ddab956b40236debeb6d628361bd3a4b7ef94f2f1357313715a0f27aaec3b
+Deleted: sha256:4ea2e9a3f8b1eead6111ea559bc6e731b2e91410bf2a4ca6c8c761104297821d
+Deleted: sha256:30e4ba4eeedc40d4701c89d9a4991b3c80b41af52c51b891aac07a65310e43b5
+Deleted: sha256:7e18a9034721831663d29f4ac0767984b0d04fc232eee7e0d18a4e258ba4f9e1
+Deleted: sha256:795f78a381fa9105a16f65e5527b666ddc4b5bccfa504027b1acb2f8a15573a4
+Deleted: sha256:422d9c370356c46bc95f75fbd7ac1917f1a5358568bb60bb1f3689680b1182a3
+Untagged: ubuntu:latest
+Untagged: ubuntu@sha256:cbcf86d7781dbb3a6aa2bcea25403f6b0b443e20b9959165cf52d2cc9608e4b9
+Deleted: sha256:bb0eaf4eee00c28cb8ffd54e571dd225f1dd2ed8d8751b2835c31e84188bf2de
+Deleted: sha256:362bda1d1f9b8af533390c6046a74e279bccd5fb70472b5afd4ab4b8d40e10cf
+Deleted: sha256:832c9286fda134a08292f53028ff1d50dc232cef9317fd7e108e24c480c42217
+Deleted: sha256:b2fd17df207168da45a6eefccbf58eca08d05b263b3eeb365b6e4b321b18cdc8
+Untagged: nginx:latest
+Untagged: nginx@sha256:c628b67d21744fce822d22fdcc0389f6bd763daac23a6b77147d0712ea7102d0
+Deleted: sha256:7e4d58f0e5f3b60077e9a5d96b4be1b974b5a484f54f9393000a99f3b6816e3d
+Deleted: sha256:eedfd37abc0b05520a719addf6675b372687fe9a2ed1746fa988335720d4376c
+Deleted: sha256:4f052ddd517f6dc5b74d2f7d881838b8ec6a5e67ec7a1da8bbbe91e1e068ad3a
+Deleted: sha256:5f78154d356577280e4ac0d9bf0d021d488828e57f953b011dcbadaecd539ce4
+Deleted: sha256:db5783668220e16186080f3e9d69ad748aab8c72abb8e457f6fc45369461634b
+Deleted: sha256:07cab433985205f29909739f511777a810f4a9aff486355b71308bb654cdc868
+Untagged: centos:latest
+Untagged: centos@sha256:76d24f3ba3317fa945743bb3746fbaf3a0b752f10b10376960de01da70685fbd
+Deleted: sha256:0d120b6ccaa8c5e149176798b3501d4dd1885f961922497cd0abef155c869566
+Deleted: sha256:291f6e44771a7b4399b0c6fb40ab4fe0331ddf76eda11080f052b003d96c7726
+Untagged: alpine:latest
+Untagged: alpine@sha256:185518070891758909c9f839cf4ca393ee977ac378609f700f60a771a2dfe321
+Deleted: sha256:a24bb4013296f61e89ba57005a7b3e52274d8edd3ae2077d04395f806b63d83e
+Deleted: sha256:50644c29ef5a27c9a40c393a73ece2479de78325cae7d762ef3cdc19bf42dd0a
+Error response from daemon: conflict: unable to delete 57580dd783bf (must be forced) - image is referenced in multiple repositories
+Error response from daemon: conflict: unable to delete 57580dd783bf (must be forced) - image is referenced in multiple repositories
+Error response from daemon: conflict: unable to delete 77d0e122a34a (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete efddc8dba140 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete a70aef711bf7 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete 939b3052ddce (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete e37b892cc0ce (cannot be forced) - image has dependent child images
+Error: No such image: 78be0f2e63d2
+Error: No such image: d4919810b547
+Error: No such image: 9137d8f90bf4
+Error: No such image: 77a0bea6c740
+Error: No such image: 3b9ddab956b4
+Error: No such image: 422d9c370356
+Error: No such image: 7e18a9034721
+Error response from daemon: conflict: unable to delete e8a5572e7822 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete 4b95d1ad1595 (must be forced) - image is referenced in multiple repositories
+Error response from daemon: conflict: unable to delete 4b95d1ad1595 (must be forced) - image is referenced in multiple repositories
+Error response from daemon: conflict: unable to delete 25c3e5c9c460 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete b9336c687472 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete 323293bc2297 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete ec5bba983532 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete 33b0d13252d4 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete f7a292bbb70c (cannot be forced) - image has dependent child images
+848eb98fee29b4aae5e43adeee9fbb46d59783a172c093e249c8d6d0ab36a4db
+SSH: EXEC: completed after 2,608 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

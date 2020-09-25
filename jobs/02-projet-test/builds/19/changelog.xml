@@ -1,0 +1,18 @@
+commit e04dc71e8201be6ca612a97d6df6d774871d0ed1
+tree 1dc5da354071cbf4698bc5e223b7cd076dc2a3ca
+parent f1d89dc96d0fffb2d9ca33c53165c8a5da33e90f
+author Ms-27 <ms@juliver.com> 2020-09-23 09:46:32 +0200
+committer GitHub <noreply@github.com> 2020-09-23 09:46:32 +0200
+
+    Update DemoApplication.java
+
+:100644 100644 9e3a2c9a3561cbc5684a1414ebf356ecbf2ee3bf 990af98ebcdacb9fbe7570cc788ce56622c36768 M	src/main/java/com/reytech/demo/DemoApplication.java
+commit f1d89dc96d0fffb2d9ca33c53165c8a5da33e90f
+tree 4eff448680f3c50218247165f4b452a076236351
+parent 4f87f1a767a71bf3906191c87a2a31c9918360a8
+author Ms-27 <ms@juliver.com> 2020-09-23 09:36:54 +0200
+committer GitHub <noreply@github.com> 2020-09-23 09:36:54 +0200
+
+    Update DemoApplication.java
+
+:100644 100644 990af98ebcdacb9fbe7570cc788ce56622c36768 9e3a2c9a3561cbc5684a1414ebf356ecbf2ee3bf M	src/main/java/com/reytech/demo/DemoApplication.java

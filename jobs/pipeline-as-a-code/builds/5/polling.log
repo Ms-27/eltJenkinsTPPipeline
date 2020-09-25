@@ -1,0 +1,22 @@
+Started on Sep 25, 2020 1:59:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 60d16562b51dd5806bd9e5bdeee6f0ea0ce96b12 (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git ls-remote -h -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example # timeout=10
+Found 1 remote heads on https://github.com/Ms-27/Spring-Boot-Hello-World-Example
+[poll] Latest remote head revision on refs/heads/master is: 60d16562b51dd5806bd9e5bdeee6f0ea0ce96b12 - already built by 4
+Using strategy: Default
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git ls-remote -h -- https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git # timeout=10
+Found 1 remote heads on https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git
+[poll] Latest remote head revision on refs/heads/master is: 60d16562b51dd5806bd9e5bdeee6f0ea0ce96b12
+Done. Took 1.4 sec
+Changes found

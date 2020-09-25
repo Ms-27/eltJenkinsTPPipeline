@@ -1,0 +1,9 @@
+commit e4a2b186dfad86ddf801e90930f628ecfb364ca2
+tree 1d655b045fdf99c5b3c9b7c942ce031c305dda96
+parent a3d82b4449a78563847977cc77be123be7cfb78c
+author Ms-27 <ms@juliver.com> 2020-09-22 14:28:53 +0200
+committer GitHub <noreply@github.com> 2020-09-22 14:28:53 +0200
+
+    Update StandardAssertionsTest.java
+
+:100644 100644 60cf22626c42f0cef12b45486c697b806ec6dd88 5854878e5772d46905785e941d361498740fb093 M	src/test/java/com/reytech/demo/StandardAssertionsTest.java

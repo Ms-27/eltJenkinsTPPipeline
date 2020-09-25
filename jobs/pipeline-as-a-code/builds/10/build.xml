@@ -1,0 +1,903 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.17">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.7.2">
+      <stagesUUID>343c22d4-eb6c-49b5-931a-985e2def896f</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@1.7.2">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Checkout</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">-=- Checkout project -=-</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>git</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>url</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Package</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">-=- packaging project -=-</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn clean package -Dmaven.test.skip=true</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <post>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                      <condition>success</condition>
+                      <branch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>junit</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>testResults</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">target/surefire-reports/*.xml</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </steps>
+                      </branch>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                  </conditions>
+                </post>
+                <name>Test</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">-=- Test project -=-</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn clean test</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Code coverage</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>jacoco</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>execPattern</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">target/*.exec</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>classPattern</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">target/classes</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>sourcePattern</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">src/main/java</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>exclusionPattern</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">src/test*</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <post>
+                  <conditions>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                      <condition>always</condition>
+                      <branch>
+                        <name>default</name>
+                        <steps>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>recordIssues</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>enabledForFailure</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="boolean">true</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>tools</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                    <value class="string">${[checkStyle()]}</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>recordIssues</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>enabledForFailure</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="boolean">true</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>tool</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                    <value class="string">${pmdParser(pattern: &apos;**/target/pmd.xml&apos;)}</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </steps>
+                      </branch>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                  </conditions>
+                </post>
+                <name>Sanity check</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">-=- Sanity Check Test project -=-</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">mvn clean install checkstyle:checkstyle pmd:pmd</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <environment>
+                  <variables class="linked-hash-map">
+                    <entry>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                        <key>SCANNER_HOME</key>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                        <value class="string">${&apos;sonarqube&apos;}</value>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                    </entry>
+                    <entry>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                        <key>ORGANIZATION</key>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                        <value class="string">EQL</value>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    </entry>
+                    <entry>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                        <key>PROJECT_NAME</key>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                        <value class="string">SpringBootProject_2</value>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    </entry>
+                  </variables>
+                </environment>
+                <name>Quality Analysis Sonarqube</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>withSonarQubeEnv</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                          <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                            <value class="string">sonarqube</value>
+                          </value>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">$SCANNER_HOME/bin/sonar-scanner                     -Dsonar.java.sources=src                     -Dsonar.java.binaries=target                     -Dsonar.projectKey=$PROJECT_NAME                     -Dsonar.language=java                     -Dsonar.sourceEncoding=UTF-8</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>343c22d4-eb6c-49b5-931a-985e2def896f</uuid>
+          </stages>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+          <tools>
+            <tools class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>maven</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">local-maven</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </tools>
+          </tools>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.4.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.5.0">
+              <sha1>60d16562b51dd5806bd9e5bdeee6f0ea0ce96b12</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>10</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/Ms-27/Spring-Boot-Hello-World-Example</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.4.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/pipeline-as-a-code@2</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.11">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+        <entry>
+          <string>git https://github.com/Ms-27/Spring-Boot-Hello-World-Example</string>
+          <hudson.scm.SCMRevisionState_-None reference="../../entry/hudson.scm.SCMRevisionState_-None"/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.35">
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>4</totalCount>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <testData/>
+    </hudson.tasks.junit.TestResultAction>
+    <hudson.plugins.jacoco.JacocoBuildAction plugin="jacoco@3.0.8">
+      <clazz>
+        <missed>0</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </clazz>
+      <method>
+        <missed>3</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </method>
+      <line>
+        <missed>5</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </line>
+      <complexity>
+        <missed>3</missed>
+        <covered>2</covered>
+        <initialized>true</initialized>
+      </complexity>
+      <instruction>
+        <missed>14</missed>
+        <covered>6</covered>
+        <initialized>true</initialized>
+      </instruction>
+      <branch>
+        <missed>0</missed>
+        <covered>0</covered>
+        <initialized>true</initialized>
+      </branch>
+      <maxClazz>1</maxClazz>
+      <maxMethod>1</maxMethod>
+      <maxLine>1</maxLine>
+      <maxComplexity>1</maxComplexity>
+      <maxInstruction>1</maxInstruction>
+      <maxBranch>1</maxBranch>
+      <failed>false</failed>
+      <inclusions>
+        <string></string>
+      </inclusions>
+      <exclusions>
+        <string>src/test*</string>
+      </exclusions>
+      <thresholds>
+        <minClass>0</minClass>
+        <maxClass>0</maxClass>
+        <minMethod>0</minMethod>
+        <maxMethod>0</maxMethod>
+        <minLine>0</minLine>
+        <maxLine>0</maxLine>
+        <minBranch>0</minBranch>
+        <maxBranch>0</maxBranch>
+        <minInstruction>0</minInstruction>
+        <maxInstruction>0</maxInstruction>
+        <minComplexity>0</minComplexity>
+        <maxComplexity>0</maxComplexity>
+      </thresholds>
+    </hudson.plugins.jacoco.JacocoBuildAction>
+    <io.jenkins.plugins.analysis.core.model.AggregationAction plugin="warnings-ng@8.4.2"/>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@8.4.2">
+      <result>
+        <id>checkstyle</id>
+        <totals>
+          <totalErrorSize>14</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>0</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@9.0.1">
+                <name>HIGH</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@9.0.1">
+                <name>LOW</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@9.0.1">
+                <name>ERROR</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>14</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@9.0.1">
+                <name>NORMAL</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>checkstyle</string>
+            <int>14</int>
+          </entry>
+        </sizePerOrigin>
+        <errors/>
+        <messages>
+          <string>Searching for all files in &apos;/var/lib/jenkins/workspace/pipeline-as-a-code@2&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+          <string>-&gt; found 1 file</string>
+          <string>Successfully parsed file /var/lib/jenkins/workspace/pipeline-as-a-code@2/target/checkstyle-result.xml</string>
+          <string>-&gt; found 14 issues (skipped 0 duplicates)</string>
+          <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+          <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+          <string>Creating SCM miner to obtain statistics for affected repository files</string>
+          <string>Resolving file names for all issues in source directory &apos;/var/lib/jenkins/workspace/pipeline-as-a-code@2&apos;</string>
+          <string>-&gt; resolved paths in source directory (2 found, 0 not found)</string>
+          <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+          <string>-&gt; resolved module names for 14 issues</string>
+          <string>Resolving package names (or namespaces) by parsing the affected files</string>
+          <string>-&gt; resolved package names of 2 affected files</string>
+          <string>No filter has been set, publishing all 14 issues</string>
+          <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+          <string>-&gt; created fingerprints for 14 issues (skipped 0 issues)</string>
+          <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/pipeline-as-a-code/builds/10/files-with-issues&apos;</string>
+          <string>-&gt; 2 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+          <string>Using reference build &apos;pipeline-as-a-code #9&apos; to compute new, fixed, and outstanding issues</string>
+          <string>Issues delta (vs. reference build): outstanding: 14, new: 0, fixed: 0</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 14 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;checkstyle&apos; to run &apos;pipeline-as-a-code #10&apos;.</string>
+        </messages>
+        <referenceBuildId>pipeline-as-a-code#9</referenceBuildId>
+        <noIssuesSinceBuild>-1</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateStatus>INACTIVE</qualityGateStatus>
+        <sizePerSeverity/>
+        <newSizePerSeverity/>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity reference="../../result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+      </healthDescriptor>
+      <id>checkstyle</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@8.4.2">
+      <result>
+        <id>pmd</id>
+        <totals>
+          <totalErrorSize>0</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>0</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>pmd</string>
+            <int>0</int>
+          </entry>
+        </sizePerOrigin>
+        <errors/>
+        <messages>
+          <string>Searching for all files in &apos;/var/lib/jenkins/workspace/pipeline-as-a-code@2&apos; that match the pattern &apos;**/target/pmd.xml&apos;</string>
+          <string>-&gt; found 1 file</string>
+          <string>Successfully parsed file /var/lib/jenkins/workspace/pipeline-as-a-code@2/target/pmd.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Skipping post processing</string>
+          <string>No filter has been set, publishing all 0 issues</string>
+          <string>Using reference build &apos;pipeline-as-a-code #9&apos; to compute new, fixed, and outstanding issues</string>
+          <string>Issues delta (vs. reference build): outstanding: 0, new: 0, fixed: 0</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 0 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;pmd&apos; to run &apos;pipeline-as-a-code #10&apos;.</string>
+        </messages>
+        <referenceBuildId>pipeline-as-a-code#9</referenceBuildId>
+        <noIssuesSinceBuild>3</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateStatus>INACTIVE</qualityGateStatus>
+        <sizePerSeverity/>
+        <newSizePerSeverity/>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity reference="../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+      </healthDescriptor>
+      <id>pmd</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@2.3.11">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.12"/>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.12">
+      <installationName>sonarqube</installationName>
+      <installationUrl>http://192.168.4.11:9000</installationUrl>
+      <ceTaskId>AXTFmLwvJsqvwvIdywfm</ceTaskId>
+      <url>http://192.168.4.11:9000/dashboard/index/SpringBootProject_2</url>
+      <serverUrl>http://192.168.4.11:9000</serverUrl>
+      <isNew>true</isNew>
+      <isSkipped>false</isSkipped>
+    </hudson.plugins.sonar.action.SonarAnalysisAction>
+  </actions>
+  <queueId>274</queueId>
+  <timestamp>1601042769222</timestamp>
+  <startTime>1601042769225</startTime>
+  <result>SUCCESS</result>
+  <duration>186832</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>pipeline {
+    agent any
+    
+    tools {
+        maven &apos;local-maven&apos;
+    }
+    
+    stages {
+        
+        stage(&apos;Checkout&apos;) {
+            steps {
+                echo &quot;-=- Checkout project -=-&quot;
+                git url: &apos;https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git&apos;
+            }
+        }
+        
+        stage(&apos;Package&apos;) {
+            steps {
+                echo &quot;-=- packaging project -=-&quot;
+                sh &apos;mvn clean package -Dmaven.test.skip=true&apos;
+            }
+            
+        }
+
+
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &quot;-=- Test project -=-&quot;
+                sh &apos;mvn clean test&apos;
+            }
+            
+            post {
+                success {
+                    junit &apos;target/surefire-reports/*.xml&apos;
+                }
+            }
+        }     
+        stage(&apos;Code coverage&apos;) {
+            steps {
+                jacoco( 
+                      execPattern: &apos;target/*.exec&apos;,
+                      classPattern: &apos;target/classes&apos;,
+                      sourcePattern: &apos;src/main/java&apos;,
+                      exclusionPattern: &apos;src/test*&apos;
+                )
+            }
+        }
+        stage(&apos;Sanity check&apos;) {
+          steps {
+            echo &quot;-=- Sanity Check Test project -=-&quot;
+            sh &apos;mvn clean install checkstyle:checkstyle pmd:pmd&apos;
+          }
+          post {
+            always {
+              recordIssues enabledForFailure: true, tools: [checkStyle()]
+              recordIssues enabledForFailure: true, tool: pmdParser(pattern: &apos;**/target/pmd.xml&apos;)
+            }
+          }
+        }	
+        stage(&apos;Quality Analysis Sonarqube&apos;) {
+            environment {
+                SCANNER_HOME = tool &apos;sonarqube&apos;
+                ORGANIZATION = &quot;EQL&quot;
+                PROJECT_NAME = &quot;SpringBootProject_2&quot;
+            }
+            steps {
+                withSonarQubeEnv(&apos;sonarqube&apos;) {
+                    sh &apos;&apos;&apos;$SCANNER_HOME/bin/sonar-scanner \
+                    -Dsonar.java.sources=src \
+                    -Dsonar.java.binaries=target \
+                    -Dsonar.projectKey=$PROJECT_NAME \
+                    -Dsonar.language=java \
+                    -Dsonar.sourceEncoding=UTF-8&apos;&apos;&apos;
+                }
+            }
+        }
+      
+    }
+}
+
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>1017448786</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1001038577</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>3813348099</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>226562357</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>695480989</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>108</iota>
+    <head>1:108</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.3">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/Ms-27/Spring-Boot-Hello-World-Example</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/pipeline-as-a-code@2</workspace>
+      <changelogFile>/var/lib/jenkins/jobs/pipeline-as-a-code/builds/10/changelog4982203371011725748.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.3">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/Ms-27/Spring-Boot-Hello-World-Example.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>master</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/lib/jenkins/workspace/pipeline-as-a-code@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

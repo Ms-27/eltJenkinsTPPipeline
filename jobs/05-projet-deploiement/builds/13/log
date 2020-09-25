@@ -1,0 +1,67 @@
+Started by upstream project "[8mha:////4Jo+j/ANswUxz3ferq98yg0xc9Vzp7qLCnmL2TLKHaDfAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH0DE92Covys1BLdnMyyosRMoH59AKjILCfOAAAA[0m04-projet-livraison" build number [8mha:////4DoqTgj5ujPTxDbIs0Y8iUJyjWKCwCJTxpRQXZbtrB2mAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZp/az8JH0DE92Covys1BLdnMyyosRMoH59UyMAfUWsO9AAAAA=[0m52
+originally caused by:
+ Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+0eac4313c074
+0eac4313c074
+Untagged: springbootapp:latest
+Untagged: ms27ms27/springbootapp:1.0
+Untagged: ms27ms27/springbootapp@sha256:29f86d5ac853bb8aa7ef0e4f0273382cd4ecf0dfb1d310d28add0fb354bc1eae
+Deleted: sha256:c8efecb4d365409e946defbca361050717974845a326c7087bd82bf1bc5c0a03
+Deleted: sha256:656642c71be851f863ccf126ed52adf9dd67b07f6bc00c9df7eef59ab81f1974
+Deleted: sha256:656462e7028b89d774135670ec35fa29a804e226e794433aef0d5aeeee201c58
+Deleted: sha256:3f34f4d69aaa009271e55962057d20b16436fb0d6f172041f977ec3745855a3d
+Deleted: sha256:116afc10aa353aa36b18a3c816f1bd0729924367acfff595446ebc9952ece05e
+Deleted: sha256:b0778a6f085eedc6d81e0f871b305a59efd89190aec8c6af341f3ba309a59dc7
+Deleted: sha256:bd3895ac3a61b5de319a1c8d6bc59ed515e8f7dfd062669dac3482850c56aa3b
+Deleted: sha256:1f1b31f12b17a8df585947b6255d10b3c81193bad9bb0b5891d6181f65eb5248
+Untagged: ms27ms27/springbootapp@sha256:154c6080a70ce1205277605ec7cf718109901dfd2e23a949dc9ec5c15fd8712e
+Deleted: sha256:c3e85866837e2a9155ea11d0170177d35923c894f736ff30baf322388bbd838f
+Deleted: sha256:d3743865878cba9dd48db07f038c3e29586a247134a04833db85edfca1d09e6a
+Untagged: openjdk:8-jre-alpine
+Untagged: openjdk@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Deleted: sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4
+Deleted: sha256:aba8cd4318a8a15f59f305368e49cc3bbd0d6d72171a0b24d08cc00513b14ef4
+Deleted: sha256:c318fbba92645a83843c387bd78497e7b143ecc7f5ed99dcb7d38fc62442c02a
+Deleted: sha256:f1b5933fe4b5f49bbe8258745cf396afe07e625bdab3168e364daf7c956b6b81
+Error response from daemon: conflict: unable to delete 656642c71be8 (cannot be forced) - image has dependent child images
+Error: No such image: c8efecb4d365
+Error: No such image: 656462e7028b
+Error: No such image: bd3895ac3a61
+Error: No such image: b0778a6f085e
+Unable to find image 'ms27ms27/springbootapp:1.0' locally
+1.0: Pulling from ms27ms27/springbootapp
+e7c96db7181b: Pulling fs layer
+f910a506b6cb: Pulling fs layer
+b6abafe80f63: Pulling fs layer
+8724a5af9815: Pulling fs layer
+8724a5af9815: Waiting
+f910a506b6cb: Verifying Checksum
+f910a506b6cb: Download complete
+e7c96db7181b: Verifying Checksum
+e7c96db7181b: Download complete
+e7c96db7181b: Pull complete
+f910a506b6cb: Pull complete
+8724a5af9815: Verifying Checksum
+8724a5af9815: Download complete
+b6abafe80f63: Download complete
+b6abafe80f63: Pull complete
+8724a5af9815: Pull complete
+Digest: sha256:29f86d5ac853bb8aa7ef0e4f0273382cd4ecf0dfb1d310d28add0fb354bc1eae
+Status: Downloaded newer image for ms27ms27/springbootapp:1.0
+6af1e1163b6d473bd2a62d3de514af54c07aa332860e32dc7e90c5431d130e69
+SSH: EXEC: completed after 8,428 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Triggering a new build of [8mha:////4JLNbnFB+5BMxRVnfPHmRCo9lAYA8sIY4gCgX+ZdFktQAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JH0DM92Covys1BLdstSizLRKfQDJYshjywAAAA==[0m06-projet-verify
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+commit 8e9a9a2f7efd6241e95de9ce29b1e48b3af12f5c
+tree c879b86ee9474b2751ad6ec6d805dce53c2f1274
+parent 4b5aee9b8441d993cdfaafb9178aab7aa58d9846
+author Ms-27 <ms@juliver.com> 2020-09-25 15:55:15 +0200
+committer GitHub <noreply@github.com> 2020-09-25 15:55:15 +0200
+
+    Update Jenkinsfile
+
+:100644 100644 8b137891791fe96927ad78e64b0aad7bded08bdc 86407e42e3ce94940b200c0ae1532d9492fda6ba M	Jenkinsfile

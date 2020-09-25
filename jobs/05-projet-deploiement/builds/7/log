@@ -1,0 +1,79 @@
+Started by user [8mha:////4HTn8uRSyro6YmxeIjZprzLIYGKm7x7O0M0UPbtEklryAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/05-projet-deploiement
+[Checks API] No suitable checks publisher found.
+SSH: Connecting from host [jenkinsafcepf]
+SSH: Connecting with configuration [VM3] ...
+SSH: EXEC: STDOUT/STDERR from command [docker stop $(docker ps -aq);
+docker rm $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker run -d -p 8089:8080 ms27ms27/springbootapp:1.0] ...
+848eb98fee29
+848eb98fee29
+Untagged: springbootapp:latest
+Untagged: ms27ms27/springbootapp:1.0
+Untagged: ms27ms27/springbootapp@sha256:68c7f8b71d1a46a646b1fbd4d6592fd16c2f51221d697c6aacae238f37a559ed
+Deleted: sha256:57580dd783bff33e3c1d4a20f0f955e4571056105eaf45a61aaf44ba1d1bf20f
+Deleted: sha256:efddc8dba140be813945bd34787ee69db62103032bdcba84a428a8427994d3a0
+Deleted: sha256:77d0e122a34a81fc04ec5cbf38af436742545d2bd0844990b407f9dcf9aee853
+Deleted: sha256:9cf80429f039a908280edb9339803fe1b22a8a4edef6fc6e60568d83066fc023
+Untagged: pong:1.0
+Untagged: ms27ms27/pong:1.0
+Untagged: ms27ms27/pong@sha256:8d1152c0eccca82b44e53130b61531fd1fb877da12dc1aff8511ea662c641959
+Deleted: sha256:4b95d1ad15959cff78f443ce4988979d531c04e97e59aba203a199310e798a43
+Deleted: sha256:e8a5572e78228f84908c041c0f2b3fcefbd069a3d5fdb44b5d7a0519cb47931f
+Deleted: sha256:25c3e5c9c460db71199e3e8dc1657e4d8751a1c443f17b775e87be995f76fe46
+Deleted: sha256:323293bc229786aa4f954d8b8218055196f54c71d74da9faa8573006cecc56f8
+Deleted: sha256:5e61afad566d7e9c36be4195e91fa9b0e4a22b6f7de4dadef9d280ba6139aa43
+Deleted: sha256:b9336c687472cce00a5d63b9d103ebc471f4617ee2344d3d5672a2b78c784cb6
+Deleted: sha256:5b1b24941f3271a13417555d6cbe677702658ba12860c390aee8e1c14096ca6c
+Deleted: sha256:ec5bba98353209d27eb3c55b3bf9e34b42dddfc5cfeed746a36245f33c6b0e96
+Deleted: sha256:63f1b8233946ae22d8b686dc498c799fcc304760964587b803a016cd13e8005b
+Untagged: mhart/alpine-node:13.8.0
+Untagged: mhart/alpine-node@sha256:9cd8663d7ae46ef979b92b07b049b26d18603ae0b2a5d5774a97b497874cdd6d
+Deleted: sha256:33b0d13252d4fab082c38f2d95abfe05092a2f3c0ed7fcecedeaf34be82433be
+Deleted: sha256:d9e222907a3a0c9552cabfdda9bec9a1b3bcce08f66482e417990d9bf270f0bd
+Deleted: sha256:531743b7098cb2aaf615641007a129173f63ed86ca32fe7b5a246a1c47286028
+Untagged: openjdk:8-jre-alpine
+Untagged: openjdk@sha256:f362b165b870ef129cbe730f29065ff37399c0aa8bcab3e44b51c302938c9193
+Deleted: sha256:f7a292bbb70c4ce57f7704cc03eb09e299de9da19013b084f138154421918cb4
+Deleted: sha256:aba8cd4318a8a15f59f305368e49cc3bbd0d6d72171a0b24d08cc00513b14ef4
+Deleted: sha256:c318fbba92645a83843c387bd78497e7b143ecc7f5ed99dcb7d38fc62442c02a
+Deleted: sha256:f1b5933fe4b5f49bbe8258745cf396afe07e625bdab3168e364daf7c956b6b81
+Error: No such image: 57580dd783bf
+Error: No such image: 77d0e122a34a
+Error: No such image: efddc8dba140
+Error response from daemon: conflict: unable to delete 25c3e5c9c460 (cannot be forced) - image has dependent child images
+Error response from daemon: conflict: unable to delete e8a5572e7822 (cannot be forced) - image has dependent child images
+Error: No such image: 4b95d1ad1595
+Error: No such image: b9336c687472
+Error: No such image: 323293bc2297
+Error: No such image: ec5bba983532
+Unable to find image 'ms27ms27/springbootapp:1.0' locally
+1.0: Pulling from ms27ms27/springbootapp
+e7c96db7181b: Pulling fs layer
+f910a506b6cb: Pulling fs layer
+b6abafe80f63: Pulling fs layer
+0b8ea4662196: Pulling fs layer
+0b8ea4662196: Waiting
+f910a506b6cb: Verifying Checksum
+f910a506b6cb: Download complete
+e7c96db7181b: Verifying Checksum
+e7c96db7181b: Download complete
+e7c96db7181b: Pull complete
+f910a506b6cb: Pull complete
+0b8ea4662196: Verifying Checksum
+0b8ea4662196: Download complete
+b6abafe80f63: Verifying Checksum
+b6abafe80f63: Download complete
+b6abafe80f63: Pull complete
+0b8ea4662196: Pull complete
+Digest: sha256:68c7f8b71d1a46a646b1fbd4d6592fd16c2f51221d697c6aacae238f37a559ed
+Status: Downloaded newer image for ms27ms27/springbootapp:1.0
+70168a44da232461674c9056cddcd39302c177401fb61f0ae6e28a5a87ddd1c5
+SSH: EXEC: completed after 8,238 ms
+SSH: Disconnecting configuration [VM3] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

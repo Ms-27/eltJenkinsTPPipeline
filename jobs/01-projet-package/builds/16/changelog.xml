@@ -1,0 +1,11 @@
+commit d97d79ccae588f360a9aebf3fea2b5367503663b
+tree 517714e5c5d410df90a958e5aff07bf838bd2fec
+parent 540e20ce4a8c7c72b1c4bce02842ced5465a2dac
+author Ms-27 <ms@juliver.com> 2020-09-22 14:53:23 +0200
+committer GitHub <noreply@github.com> 2020-09-22 14:53:23 +0200
+
+    Update pom.xml
+    
+    ajout plugin jacoco dans le pom
+
+:100644 100644 46edeec5bcebf08429134359a1bbdfd16f78c827 e9979d71fc7dcd3b37feec7b8b5f6beb9ee32f95 M	pom.xml
